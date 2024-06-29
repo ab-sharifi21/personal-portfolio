@@ -27,7 +27,7 @@ export function ThemeToggle() {
   if (resolvedTheme === 'dark') {
     return (
       <div
-        className="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-dark-skill-bg-color"
+        className="flex h-[40px] w-[40px] items-center duration-300 justify-center rounded-full bg-dark-skill-bg-color cursor-pointer"
         onClick={() => setTheme('light')}
       >
         <FiSun className="h-[20px] w-[20px] hover:scale-125 duration-300" />

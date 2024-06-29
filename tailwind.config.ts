@@ -22,7 +22,7 @@ const config: Config = {
         // Dark mode colors
         "dark-primary-font-color": "#F0F0F0",
         "dark-secondary-font-color": "#A0A0A0",  
-        "dark-primary-bg-color": "#121212", 
+        "dark-primary-bg-color": "#333333", 
         "dark-secondary-bg-color": "#1E1E1E", 
         "dark-skill-bg-color": "#2A2A2A",
       },    

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { poppins } from "@/fonts";
+import { raleway } from "@/fonts";
 import { Providers } from "./Providers";
 import "./globals.css";
 
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={poppins.className}>
+      <body className={`${raleway.className} bg-primary-bg-color dark:bg-dark-primary-bg-color dark:text-dark-primary-font-color`} >
         <Providers>
         {children}
         </Providers>
