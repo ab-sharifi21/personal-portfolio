@@ -30,7 +30,7 @@ const socials = [
 
 export const SocialMediaList = () => {
   return (
-    <div className="flex gap-[1.2rem] mb-[2rem] mt-[2rem]">
+    <div className="mb-[2rem] mt-[2rem] flex gap-[1.2rem]">
       {socials.map((social) => {
         return <SocialMediaCard key={social.id} social={social} />;
       })}
