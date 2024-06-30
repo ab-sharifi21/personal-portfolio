@@ -20,9 +20,9 @@ export default function RootLayout({
         className={`${raleway.className} flex justify-center bg-primary-bg-color dark:bg-dark-primary-bg-color dark:text-dark-primary-font-color`}
       >
         <Providers>
-          <div className="flex min-h-screen w-screen flex-col p-[1rem] laptop:pb-[2rem] laptop:pl-[3rem] laptop:pr-[3rem] desktop:pb-[4rem] desktop:pl-[5rem] desktop:pr-[5rem]">
+          <div className="flex min-h-screen w-screen flex-col p-[1rem] pb-[4rem] pl-[5rem] pr-[5rem]">
             <Header />
-            <main className="flex flex-1 gap-8">
+            <main className="flex flex-1 gap-8 desktop:gap-12">
               <SideBar />
               <div className="flex flex-1 flex-col items-end gap-2">
                 <NavBar />

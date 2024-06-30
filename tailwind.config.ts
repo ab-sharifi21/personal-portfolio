@@ -35,6 +35,9 @@ const config: Config = {
       boxShadow: {
         'box-shadow': '0 2px 4px rgba(0, 0, 0, 0.1)',
       },
+      rotate: {
+        '360': '360deg',
+      },
     },
   },
   plugins: [],

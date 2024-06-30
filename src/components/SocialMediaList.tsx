@@ -7,7 +7,7 @@ const socials = [
     name: 'GitHub',
     url: 'https://github.com/ab-sharifi21',
     icon: (
-      <FaGithub className="h-[28px] w-[28px] duration-500 hover:scale-110" />
+      <FaGithub className="h-[28px] w-[28px] duration-1000 group-hover:rotate-360 group-hover:scale-110" />
     ),
   },
   {
@@ -15,7 +15,7 @@ const socials = [
     name: 'Linkedin',
     url: 'https://www.linkedin.com/in/abdullahsharifi/',
     icon: (
-      <FaLinkedinIn className="h-[28px] w-[28px] duration-500 hover:scale-110" />
+      <FaLinkedinIn className="h-[28px] w-[28px] duration-1000 group-hover:rotate-360 group-hover:scale-110" />
     ),
   },
   {
@@ -23,14 +23,14 @@ const socials = [
     name: 'Instagram',
     url: 'https://www.instagram.com/ab.sharifi21/',
     icon: (
-      <FaInstagram className="h-[28px] w-[28px] duration-500 hover:scale-110" />
+      <FaInstagram className="h-[28px] w-[28px] duration-1000 group-hover:rotate-360 group-hover:scale-110" />
     ),
   },
 ];
 
 export const SocialMediaList = () => {
   return (
-    <div className="mb-[1rem] mt-[1rem] flex gap-[1.2rem] desktop:mb-[2rem] desktop:mt-[2rem]">
+    <div className="flex gap-[1.2rem] mb-[2rem] mt-[2rem]">
       {socials.map((social) => {
         return <SocialMediaCard key={social.id} social={social} />;
       })}

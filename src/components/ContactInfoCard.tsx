@@ -10,7 +10,7 @@ export const ContactInfoCard = ({ contact }: ContactInfoCardProps) => {
   return (
     <Link
       href={url}
-      className="mb-4 flex items-center border-b pb-[1rem] dark:border-dark-primary-font-color/50 desktop:mb-6"
+      className="flex items-center border-b pb-[1rem] dark:border-dark-primary-font-color/50 mb-6 duration-500 hover:scale-110 hover:bg-skill-bg-color hover:rounded-md hover:shadow-box-shadow dark:hover:bg-[#383838]"
     >
       {icon}
       <div className="flex flex-col">
