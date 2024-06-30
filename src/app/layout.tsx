@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
-import { raleway } from "@/fonts";
-import { Providers } from "./Providers";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { raleway } from '@/fonts';
+import { Providers } from './Providers';
+import './globals.css';
+import { Header, SideBar } from '@/components';
 
 export const metadata: Metadata = {
-  title: "Abdullah Sharifi - Portfolio",
-  description: "Abdullah Sharifi - Front-End Developer, Web Developer",
+  title: 'Abdullah Sharifi - Portfolio',
+  description: 'Abdullah Sharifi - Front-End Developer, Web Developer',
 };
 
 export default function RootLayout({
@@ -15,9 +16,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${raleway.className} bg-primary-bg-color dark:bg-dark-primary-bg-color dark:text-dark-primary-font-color`} >
+      <body
+        className={`${raleway.className} flex justify-center bg-primary-bg-color dark:bg-dark-primary-bg-color dark:text-dark-primary-font-color`}
+      >
         <Providers>
-        {children}
+          <div className="flex min-h-screen w-screen flex-col p-[1rem] laptop:pb-[2rem] laptop:pl-[3rem] laptop:pr-[3rem] desktop:pb-[4rem] desktop:pl-[5rem] desktop:pr-[5rem]">
+            <Header />
+            <main className="flex flex-1">
+              <SideBar />
+              {children}
+            </main>
+          </div>
         </Providers>
       </body>
     </html>
