@@ -40,7 +40,7 @@ export const SideBar = () => {
   ];
 
   return (
-    <aside className="relative mt-[5rem] flex max-w-[280px] flex-col items-center rounded-2xl bg-white p-[1.5rem] pb-[3rem] pt-[7rem] shadow-box-shadow dark:bg-dark-skill-bg-color desktop:pt-[8rem]">
+    <aside className="relative mt-[5rem] flex max-w-[280px] flex-col items-center rounded-2xl bg-white/50 p-[1.5rem] pb-[3rem] pt-[7rem] shadow-box-shadow dark:bg-dark-skill-bg-color desktop:pt-[8rem]">
       <Image
         src="/me.jpg"
         alt="Abdullah photo"
@@ -49,13 +49,11 @@ export const SideBar = () => {
         className="absolute top-[-5rem] max-h-[180px] rounded-sm rounded-bl-2xl rounded-tr-2xl object-cover shadow-box-shadow"
       />
       <h1
-        className={`${poppins.className} mb-[0.7rem] text-[1.1rem] font-bold`}
+        className={`${poppins.className} mb-[0.7rem] text-[1.5rem] font-bold`}
       >
         Abdullah Sharifi
       </h1>
-      <p className="text-sm font-semibold text-icon-color">
-        Full-Stack Web Developer
-      </p>
+      <p className="font-semibold text-icon-color">Full-Stack Web Developer</p>
       <SocialMediaList />
       <div className="w-full flex-1 rounded-2xl bg-primary-bg-color p-[1rem] pb-[1.5rem] pt-[1.5rem] shadow-box-shadow dark:bg-dark-secondary-bg-color dark:shadow-2xl desktop:pb-8 desktop:pt-8">
         {contacts.map((contact) => {

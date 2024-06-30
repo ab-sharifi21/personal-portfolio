@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { raleway } from '@/fonts';
 import { Providers } from './Providers';
 import './globals.css';
-import { Header, SideBar } from '@/components';
+import { Header, NavBar, SideBar } from '@/components';
 
 export const metadata: Metadata = {
   title: 'Abdullah Sharifi - Portfolio',
@@ -22,9 +22,12 @@ export default function RootLayout({
         <Providers>
           <div className="flex min-h-screen w-screen flex-col p-[1rem] laptop:pb-[2rem] laptop:pl-[3rem] laptop:pr-[3rem] desktop:pb-[4rem] desktop:pl-[5rem] desktop:pr-[5rem]">
             <Header />
-            <main className="flex flex-1">
+            <main className="flex flex-1 gap-8">
               <SideBar />
-              {children}
+              <div className="flex flex-1 flex-col items-end gap-2">
+                <NavBar />
+                {children}
+              </div>
             </main>
           </div>
         </Providers>
