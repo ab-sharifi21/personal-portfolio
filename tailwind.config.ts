@@ -12,11 +12,12 @@ const config: Config = {
         mobile: '640px',
         tablet: '900px',
         laptop: '1024px',
-        desktop: '1536px',
+        desktop: '1380px',
       },
       backgroundImage: {
         'bt-bg-gradient': 'linear-gradient(to right, #FF9C1A, #E80505)',
-        'cards-bg': 'radial-gradient(circle 160px at 50% 120%, #353535, #1f1f1f)',
+        'cards-bg':
+          'radial-gradient(circle 160px at 50% 120%, #353535, #1f1f1f)',
       },
       colors: {
         'primary-font-color': 'black',
@@ -39,7 +40,7 @@ const config: Config = {
       },
       rotate: {
         '360': '360deg',
-        '20': '20deg'
+        '20': '20deg',
       },
     },
   },

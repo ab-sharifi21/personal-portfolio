@@ -6,3 +6,4 @@ export { SocialMediaList } from './SocialMediaList';
 export { ContactInfoCard } from './ContactInfoCard';
 export { NavBar } from './NavBar';
 export { Nav } from './Nav';
+export { EducationAndExperienceCard } from './EducationAndExperienceCard';

@@ -12,3 +12,22 @@ export interface ContactInfo {
   value: string;
   icon: any;
 }
+
+export interface ExperienceInfo {
+  id: number;
+  year: string | number;
+  post: string;
+  company: Company;
+  bgColor: string;
+  tasks: Task[];
+}
+
+export interface Task {
+  id: number;
+  description: string;
+}
+
+export interface Company {
+  name: string;
+  url: string;
+}

@@ -17,10 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${raleway.className} flex justify-center bg-primary-bg-color dark:bg-dark-primary-bg-color dark:text-dark-primary-font-color`}
+        className={`${raleway.className} flex justify-center bg-primary-bg-color dark:bg-dark-primary-bg-color dark:text-dark-primary-font-color desktop:flex desktop:items-center`}
       >
         <Providers>
-          <div className="flex min-h-screen w-screen flex-col p-[1rem] pb-[4rem] pl-[5rem] pr-[5rem]">
+          <div className="flex min-h-screen w-screen flex-col p-[1rem] pb-[4rem] pl-[5rem] pr-[5rem] desktop:max-w-[1414px]">
             <Header />
             <main className="flex flex-1 gap-8 desktop:gap-12">
               <SideBar />
