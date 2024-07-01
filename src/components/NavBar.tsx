@@ -1,6 +1,7 @@
 import { IoCodeSlash, IoHomeOutline } from 'react-icons/io5';
 import { MdOutlinePhoneInTalk } from 'react-icons/md';
 import { Nav } from './Nav';
+import { FaGraduationCap } from 'react-icons/fa';
 
 const links = [
   {
@@ -9,12 +10,12 @@ const links = [
     url: '/',
     icon: <IoHomeOutline className="h-[1.3rem] w-[1.3rem]" />,
   },
-  //   {
-  //     id: 2,
-  //     name: 'Work & Skills',
-  //     url: '/work',
-  //     icon: <PiSuitcaseSimpleDuotone className='h-[1.3rem] w-[1.3rem]' />,
-  //   },
+  {
+    id: 2,
+    name: 'Education',
+    url: '/education',
+    icon: <FaGraduationCap className='h-[1.3rem] w-[1.3rem]' />,
+  },
   {
     id: 3,
     name: 'Projects',
