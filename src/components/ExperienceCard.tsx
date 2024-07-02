@@ -7,9 +7,7 @@ interface ExperienceCardProps {
   experienceInfo: ExperienceInfo;
 }
 
-export const ExperienceCard = ({
-  experienceInfo,
-}: ExperienceCardProps) => {
+export const ExperienceCard = ({ experienceInfo }: ExperienceCardProps) => {
   const { year, post, company, tasks, bgColor } = experienceInfo;
   return (
     <div

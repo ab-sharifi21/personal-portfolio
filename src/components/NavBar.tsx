@@ -14,7 +14,7 @@ const links = [
     id: 2,
     name: 'Education',
     url: '/education',
-    icon: <FaGraduationCap className='h-[1.3rem] w-[1.3rem]' />,
+    icon: <FaGraduationCap className="h-[1.3rem] w-[1.3rem]" />,
   },
   {
     id: 3,
