@@ -201,7 +201,7 @@ export default function Education() {
             })}
           </ul>
 
-            <Tooltip message={"Hello there👋"} >
+            <Tooltip message={"Hello there👋"} styles={'top-4 right-0'} >
 
             <Image
               src="/monster-cute.gif"
