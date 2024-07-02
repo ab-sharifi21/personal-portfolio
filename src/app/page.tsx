@@ -1,4 +1,4 @@
-import { EducationAndExperienceCard } from '@/components';
+import { ExperienceCard } from '@/components';
 import { poppins } from '@/fonts';
 
 import Image from 'next/image';
@@ -164,7 +164,7 @@ export default function Home() {
         <div className="flex flex-wrap justify-between">
           {experiences.map((experience) => {
             return (
-              <EducationAndExperienceCard
+              <ExperienceCard
                 key={experience.id}
                 experienceInfo={experience}
               />

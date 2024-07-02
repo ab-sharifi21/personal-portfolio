@@ -3,13 +3,13 @@ import { ExperienceInfo } from '@/types';
 import Link from 'next/link';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 
-interface EducationAndExperienceCardProps {
+interface ExperienceCardProps {
   experienceInfo: ExperienceInfo;
 }
 
-export const EducationAndExperienceCard = ({
+export const ExperienceCard = ({
   experienceInfo,
-}: EducationAndExperienceCardProps) => {
+}: ExperienceCardProps) => {
   const { year, post, company, tasks, bgColor } = experienceInfo;
   return (
     <div
