@@ -28,7 +28,7 @@ export const EducationAndExperienceCard = ({
         {tasks.map((task) => {
           return (
             <li key={task.id} className="flex items-center gap-1 text-sm">
-              <FaLongArrowAltRight className="text-icon-color" />
+              <FaLongArrowAltRight className="text-social-color" />
               <span>{task.description}</span>
             </li>
           );
