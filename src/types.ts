@@ -31,3 +31,12 @@ export interface Company {
   name: string;
   url: string;
 }
+
+export interface EducationInfo {
+  id: number;
+  name: string;
+  year: string | number;
+  schoolName: string;
+  bgColor: string;
+  location: string;
+}

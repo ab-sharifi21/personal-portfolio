@@ -7,3 +7,4 @@ export { ContactInfoCard } from './ContactInfoCard';
 export { NavBar } from './NavBar';
 export { Nav } from './Nav';
 export { ExperienceCard } from './ExperienceCard';
+export { EducationCard } from './EducationCard';
