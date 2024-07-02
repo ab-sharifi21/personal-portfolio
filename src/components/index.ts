@@ -8,3 +8,4 @@ export { NavBar } from './NavBar';
 export { Nav } from './Nav';
 export { ExperienceCard } from './ExperienceCard';
 export { EducationCard } from './EducationCard';
+export { Tooltip } from './Tooltip';
