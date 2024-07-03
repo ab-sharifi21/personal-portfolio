@@ -1,7 +1,18 @@
+import { poppins } from "@/fonts";
+import { GrProjects } from "react-icons/gr";
+
 export default function Projects() {
   return (
     <div className="w-full flex-1 rounded-2xl bg-white/50 p-4 pl-8 pr-8 shadow-box-shadow dark:bg-dark-skill-bg-color">
-      <h1>Projects Page</h1>
+      <div className="mb-3 flex items-center gap-2">
+        <GrProjects className="h-6 w-6 text-icon-color" />
+        <h2
+          className={`${poppins.className} text-[1.3rem] font-bold capitalize`}
+        >
+          Projects<span className="text-2xl text-icon-color">.</span>
+        </h2>
+      </div>
+      <p className="text-secondary-font-color">Here are some of works:</p>
     </div>
   );
 }
