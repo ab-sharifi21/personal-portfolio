@@ -40,3 +40,13 @@ export interface EducationInfo {
   bgColor: string;
   location: string;
 }
+
+export type Project = {
+  id: number;
+  name: string;
+  description: string;
+  github: string;
+  url?: string;
+  tools: string[];
+  imageUrl?: string;
+};
