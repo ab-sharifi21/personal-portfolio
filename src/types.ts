@@ -48,5 +48,6 @@ export type Project = {
   github: string;
   url?: string;
   tools: string[];
-  imageUrl?: string;
+  imageUrl: string;
+  bgColor?: string 
 };

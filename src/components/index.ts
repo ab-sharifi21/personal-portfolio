@@ -9,3 +9,4 @@ export { Nav } from './Nav';
 export { ExperienceCard } from './ExperienceCard';
 export { EducationCard } from './EducationCard';
 export { Tooltip } from './Tooltip';
+export { ProjectCard } from './ProjectCard';

@@ -9,17 +9,8 @@ export const projects: Project[] = [
       github: 'https://github.com/ab-sharifi21/Player2Player-Marketplace',
       url: 'https://www.youtube.com/watch?v=J51EmE-M_NM&t=18s',
       tools: ['HTML', 'CSS', 'JavaScript', 'Node', 'Express', 'React', 'SQL'],
-      imageUrl: ""
-    },
-    {
-      id: 2,
-      name: 'MovieMix',
-      description:
-        'MovieMix is a movie web app that utilizes The Movie Database (TMDb) API to provide comprehensive information about movies. Discover everything from plot summaries and cast details to release dates and ratings, all in one place.',
-      github: 'https://github.com/ab-sharifi21/MovieMix',
-      url: 'https://mixmovie.netlify.app/',
-      tools: ['Next.js', 'HTML', 'CSS', 'Tailwind', 'TypeScript', 'React', 'Framer motion'],
-      imageUrl: ""
+      imageUrl: "/p2p.png",
+      bgColor: "secondary-bg-color"
     },
     {
       id: 3,
@@ -29,7 +20,19 @@ export const projects: Project[] = [
       github: 'https://github.com/ab-sharifi21/weather-app-react-spa',
       url: 'https://weather-app-react-spa.netlify.app',
       tools: ['HTML', 'Tailwind', 'TypeScript', 'React'],
-      imageUrl: ""
+      imageUrl: "/weather.png",
+      bgColor: "bg-color3"
+    },
+    {
+      id: 2,
+      name: 'MovieMix',
+      description:
+        'MovieMix is a movie web app that utilizes The Movie Database (TMDb) API to provide comprehensive information about movies. Discover everything from plot summaries and cast details to release dates and ratings, all in one place.',
+      github: 'https://github.com/ab-sharifi21/MovieMix',
+      url: 'https://mixmovie.netlify.app/',
+      tools: ['Next.js', 'HTML', 'CSS', 'Tailwind', 'TypeScript', 'React', 'Framer motion'],
+      imageUrl: "/movie-app.png",
+      bgColor: "secondary-bg-color"
     },
     {
       id: 4,
@@ -39,7 +42,8 @@ export const projects: Project[] = [
       github: 'https://github.com/ab-sharifi21/To-Do-App-React',
       url: 'https://ab-todo-app-react.netlify.app/',
       tools: ['HTML', 'CSS', 'Tailwind', 'TypeScript', 'React'],
-      imageUrl: ""
+      imageUrl: "/todo-app.png",
+      bgColor: "bg-color3"
     },
   ];
   
