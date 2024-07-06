@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaGithub } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
+import { Tooltip } from './Tooltip';
 
 interface ProjectCardProps {
   project: Project;
@@ -15,19 +16,6 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
     <article
       className={`bg-${bgColor} mb-4 rounded-xl shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl`}
     >
-      {/* <div className="group relative">
-        <Image
-          src={imageUrl}
-          width={400}
-          height={230}
-          alt={`${name}'s home page photo`}
-          className="h-[230px] w-[400px] rounded-tl-xl rounded-tr-xl"
-        />
-        <div className="absolute bottom-0 p-4 left-0 right-0 top-0 z-10 rounded-tl-xl rounded-tr-xl hidden dark:bg-black/60 bg-white/80 group-hover:block">
-          hello
-        </div>
-      </div> */}
-
       <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-tl-xl rounded-tr-xl transition-shadow hover:shadow-xl hover:shadow-black/30">
         <div className="h-[230px] w-[400px] rounded-xl">
           <Image
@@ -61,22 +49,28 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       </div>
 
       <div className="flex items-center justify-between p-2 pl-3 pr-3">
-        <h1 className={`${poppins.className} font-semibold text-lg`}>{project.name}</h1>
+        <h1 className={`${poppins.className} text-lg font-semibold`}>
+          {project.name}
+        </h1>
         <div className="flex items-center gap-2">
-          <Link
-            href={github}
-            target="_blank"
-            className="text-social-color duration-300 hover:scale-110 hover:text-icon-color"
-          >
-            <FaGithub className="h-[28px] w-[28px]" />
-          </Link>
-          <Link
-            href={url}
-            target="_blank"
-            className="text-social-color duration-300 hover:scale-110 hover:text-icon-color"
-          >
-            <TbWorld className="h-[28px] w-[28px]" />
-          </Link>
+          <Tooltip message={'Code'} styles={'top-full left-full'}>
+            <Link
+              href={github}
+              target="_blank"
+              className="text-social-color duration-300 hover:scale-110 hover:text-icon-color"
+            >
+              <FaGithub className="h-[28px] w-[28px]" />
+            </Link>
+          </Tooltip>
+          <Tooltip message={'Demo'} styles={'top-full left-full'}>
+            <Link
+              href={url}
+              target="_blank"
+              className="text-social-color duration-300 hover:scale-110 hover:text-icon-color"
+            >
+              <TbWorld className="h-[28px] w-[28px]" />
+            </Link>
+          </Tooltip>
         </div>
       </div>
     </article>
