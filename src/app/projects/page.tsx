@@ -1,7 +1,7 @@
-import { poppins } from "@/fonts";
-import { GrProjects } from "react-icons/gr";
-import { projects } from "@/data";
-import { ProjectCard } from "@/components";
+import { poppins } from '@/fonts';
+import { GrProjects } from 'react-icons/gr';
+import { projects } from '@/data';
+import { ProjectCard } from '@/components';
 
 export default function Projects() {
   return (
@@ -14,14 +14,14 @@ export default function Projects() {
           Projects<span className="text-2xl text-icon-color">.</span>
         </h2>
       </div>
-      <p className="mb-8 text-secondary-font-color text-sm">Here are some of works:</p>
+      <p className="mb-8 text-sm text-secondary-font-color">
+        Here are some of works:
+      </p>
 
-      <section className="flex flex-wrap gap-4 justify-between">
-        {
-          projects.map((project) => {
-            return <ProjectCard key={project.id} project={project} />
-          })
-        }
+      <section className="flex flex-wrap justify-between gap-4">
+        {projects.map((project) => {
+          return <ProjectCard key={project.id} project={project} />;
+        })}
       </section>
     </div>
   );
