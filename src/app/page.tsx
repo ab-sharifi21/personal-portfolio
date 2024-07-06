@@ -143,7 +143,7 @@ export default function Home() {
               When I first saw a computer I was 12 years old
             </span>
             . And I have been curious about technology and video games ever
-            since. So i Jumped into this amazing adventure, exploring and
+            since. So I jumped into this amazing adventure, exploring and
             discovering everything about them all on my own.
           </p>
         </div>
