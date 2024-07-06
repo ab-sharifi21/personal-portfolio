@@ -28,27 +28,34 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
         </div>
       </div> */}
 
-      <div className="group relative cursor-pointer rounded-tl-xl rounded-tr-xl items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-tl-xl rounded-tr-xl transition-shadow hover:shadow-xl hover:shadow-black/30">
         <div className="h-[230px] w-[400px] rounded-xl">
           <Image
             width={400}
             height={230}
-            className="h-full rounded-tl-xl rounded-tr-xl w-full object-cover transition-transform duration-700 group-hover:scale-125"
+            className="h-full w-full rounded-tl-xl rounded-tr-xl object-cover transition-transform duration-700 group-hover:scale-125"
             src={imageUrl}
             alt={`${name}'s home page photo`}
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent dark:to-black dark:group-hover:from-black/70 dark:group-hover:via-black/60 dark:group-hover:to-black/70 to-white group-hover:from-white/60 group-hover:via-white/70 group-hover:to-white/60 rounded-tl-xl rounded-tr-xl"></div>
-        <div className="absolute inset-0 flex translate-y-[100%] items-center flex-col justify-center px-6 transition-all duration-500 group-hover:translate-y-0 rounded-tl-xl rounded-tr-xl">
-          <p className={`mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100`}>
-           {description}
+        <div className="absolute inset-0 rounded-tl-xl rounded-tr-xl bg-gradient-to-b from-transparent via-transparent to-white group-hover:from-white/60 group-hover:via-white/70 group-hover:to-white/60 dark:to-black dark:group-hover:from-black/70 dark:group-hover:via-black/60 dark:group-hover:to-black/70"></div>
+        <div className="absolute inset-0 flex translate-y-[100%] flex-col items-center justify-center rounded-tl-xl rounded-tr-xl px-6 transition-all duration-500 group-hover:translate-y-0">
+          <p
+            className={`mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100`}
+          >
+            {description}
           </p>
-          <ul className='flex flex-wrap items-center gap-2 justify-center'>
-          {
-            tools.map((tool) => {
-                return <span className='bg-skill-bg-color p-1 pr-2 text-sm pl-2 rounded-lg dark:bg-dark-skill-bg-color font-semibold shadow-box-shadow dark:shadow-xl' key={tool}>{tool}</span>
-            })
-          }
+          <ul className="flex flex-wrap items-center justify-center gap-2">
+            {tools.map((tool) => {
+              return (
+                <span
+                  className="rounded-lg bg-skill-bg-color p-1 pl-2 pr-2 text-sm font-semibold shadow-box-shadow dark:bg-dark-skill-bg-color dark:shadow-xl"
+                  key={tool}
+                >
+                  {tool}
+                </span>
+              );
+            })}
           </ul>
         </div>
       </div>
