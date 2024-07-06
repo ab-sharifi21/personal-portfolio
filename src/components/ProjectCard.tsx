@@ -13,7 +13,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
   const { name, description, github, tools, imageUrl, url, bgColor } = project;
   return (
     <article
-      className={`bg-${bgColor} mb-6 rounded-xl shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl`}
+      className={`bg-${bgColor} mb-4 rounded-xl shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl`}
     >
       {/* <div className="group relative">
         <Image
@@ -61,7 +61,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       </div>
 
       <div className="flex items-center justify-between p-2 pl-3 pr-3">
-        <h1 className="font-semibold">{project.name}</h1>
+        <h1 className={`${poppins.className} font-semibold text-lg`}>{project.name}</h1>
         <div className="flex items-center gap-2">
           <Link
             href={github}
