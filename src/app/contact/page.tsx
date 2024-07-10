@@ -1,7 +1,7 @@
 import { poppins } from '@/fonts';
 import { MdOutlinePermContactCalendar } from 'react-icons/md';
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className="w-full flex-1 flex flex-col rounded-2xl bg-white/50 p-4 pl-8 pr-8 shadow-box-shadow dark:bg-dark-skill-bg-color">
       <div className="flex items-center gap-2">
