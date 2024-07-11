@@ -46,6 +46,10 @@ export const ContactForm = () => {
     setSubmitButtonText('Send');
   };
 
+  const handleCancel = () => {
+    setFormDetails(formInitialDetails);
+  };
+
   return (
     <form
       onSubmit={handleSubmit}
@@ -95,12 +99,21 @@ export const ContactForm = () => {
         placeholder="Your message"
         onChange={(e) => onFormUpdate('message', e.target.value)}
       />
-      <button
-        className="mt-4 w-[100px] rounded-xl border border-icon-color bg-bt-bg-gradient px-4 py-2 duration-300 hover:scale-105"
-        type="submit"
-      >
-        {submitButtonText}
-      </button>
+      <div className="flex gap-4">
+        <button
+          onClick={handleCancel}
+          className="mt-4 w-[100px] rounded-xl border border-icon-color bg-bt-bg-gradient px-4 py-2 duration-300 hover:scale-105"
+          type="reset"
+        >
+          Cancel
+        </button>
+        <button
+          className="mt-4 w-[100px] rounded-xl border border-icon-color bg-bt-bg-gradient px-4 py-2 duration-300 hover:scale-105"
+          type="submit"
+        >
+          {submitButtonText}
+        </button>
+      </div>
     </form>
   );
 };
