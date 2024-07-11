@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
 
 export const ContactForm = () => {
   const formInitialDetails = {
@@ -11,7 +11,6 @@ export const ContactForm = () => {
     phone: '',
     message: '',
   };
-
 
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [submitButtonText, setSubmitButtonText] = useState('Send');
@@ -26,10 +25,10 @@ export const ContactForm = () => {
 
     emailjs
       .send(
-        'service_fz97a4y', // Replace with your Service ID
-        'template_mal4tcf', // Replace with your Template ID
+        'service_fz97a4y',
+        'template_mal4tcf',
         formDetails,
-        '6bZoIKzWcrfEh8Cw8' // Replace with your User ID
+        '6bZoIKzWcrfEh8Cw8',
       )
       .then(
         (result) => {
@@ -39,24 +38,22 @@ export const ContactForm = () => {
         (error) => {
           console.log(error.text);
           alert('Failed to send email. Please try again later.');
-        }
+        },
       );
 
-      setFormDetails(formInitialDetails);
+    setFormDetails(formInitialDetails);
 
-    setSubmitButtonText('Send')
-  }
+    setSubmitButtonText('Send');
+  };
 
   return (
-    <form onSubmit={handleSubmit} className="mb-4 flex-1 rounded-xl bg-primary-bg-color p-4 dark:bg-dark-secondary-bg-color">
+    <form
+      onSubmit={handleSubmit}
+      className="mb-4 flex flex-1 flex-col items-end gap-5 rounded-xl bg-primary-bg-color p-6 dark:bg-dark-secondary-bg-color"
+    >
       <input
-        type="text"
-        name="subject"
-        value={formDetails.subject}
-        placeholder="Subject"
-        onChange={(e) => onFormUpdate('subject', e.target.value)}
-      />
-      <input
+        required
+        className="w-full border-b bg-transparent px-4 py-3 caret-icon-color outline-none duration-500 hover:rounded-lg hover:bg-skill-bg-color hover:shadow-box-shadow focus:bg-skill-bg-color dark:border-dark-primary-font-color/50 dark:hover:bg-[#383838] dark:focus:bg-[#383838]"
         type="text"
         name="fullName"
         value={formDetails.fullName}
@@ -64,26 +61,46 @@ export const ContactForm = () => {
         onChange={(e) => onFormUpdate('fullName', e.target.value)}
       />
       <input
+        required
+        className="w-full border-b bg-transparent px-4 py-3 caret-icon-color outline-none duration-500 hover:rounded-lg hover:bg-skill-bg-color hover:shadow-box-shadow focus:bg-skill-bg-color dark:border-dark-primary-font-color/50 dark:hover:bg-[#383838] dark:focus:bg-[#383838]"
         type="email"
-        name='email'
+        name="email"
         value={formDetails.email}
         placeholder="Email address"
         onChange={(e) => onFormUpdate('email', e.target.value)}
       />
       <input
+        className="w-full border-b bg-transparent px-4 py-3 caret-icon-color outline-none duration-500 hover:rounded-lg hover:bg-skill-bg-color hover:shadow-box-shadow focus:bg-skill-bg-color dark:border-dark-primary-font-color/50 dark:hover:bg-[#383838] dark:focus:bg-[#383838]"
         type="tel"
-        name='phone'
+        name="phone"
         value={formDetails.phone}
         placeholder="Phone number"
         onChange={(e) => onFormUpdate('phone', e.target.value)}
       />
+      <input
+        required
+        className="w-full border-b bg-transparent px-4 py-3 caret-icon-color outline-none duration-500 hover:rounded-lg hover:bg-skill-bg-color hover:shadow-box-shadow focus:bg-skill-bg-color dark:border-dark-primary-font-color/50 dark:hover:bg-[#383838] dark:focus:bg-[#383838]"
+        type="text"
+        name="subject"
+        value={formDetails.subject}
+        placeholder="Subject"
+        onChange={(e) => onFormUpdate('subject', e.target.value)}
+      />
       <textarea
-        name='message'
+        required
+        rows={6}
+        className="w-full resize-none rounded-lg border bg-transparent px-4 py-3 caret-icon-color shadow-box-shadow outline-none duration-500 hover:bg-skill-bg-color hover:shadow-box-shadow focus:bg-skill-bg-color dark:border-dark-primary-font-color/50 dark:hover:bg-[#383838] dark:focus:bg-[#383838]"
+        name="message"
         value={formDetails.message}
         placeholder="Your message"
         onChange={(e) => onFormUpdate('message', e.target.value)}
       />
-      <button type="submit">{submitButtonText}</button>
+      <button
+        className="mt-4 w-[100px] rounded-xl border border-icon-color bg-bt-bg-gradient px-4 py-2 duration-300 hover:scale-105"
+        type="submit"
+      >
+        {submitButtonText}
+      </button>
     </form>
   );
 };

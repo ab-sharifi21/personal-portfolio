@@ -13,12 +13,11 @@ export default function Contact() {
           Contact<span className="text-2xl text-icon-color">.</span>
         </h2>
       </div>
-      <p className="mb-8 text-sm text-primary-font-color/50 dark:text-dark-primary-font-color/50">
+      <p className="mb-8 text-sm dark:text-dark-primary-font-color/50">
         Get in touch and let&apos;s work together!
       </p>
 
       <ContactForm />
-      
     </div>
   );
 }
