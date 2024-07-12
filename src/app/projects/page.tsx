@@ -14,7 +14,7 @@ export default function Projects() {
           Projects<span className="text-2xl text-icon-color">.</span>
         </h2>
       </div>
-      <p className="mb-8 text-sm text-secondary-font-color">
+      <p className="mb-8 text-sm dark:text-dark-primary-font-color/50">
         Here are some of works:
       </p>
 
