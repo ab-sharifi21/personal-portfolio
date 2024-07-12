@@ -115,7 +115,7 @@ export default function Home() {
           </h2>
           <p className="max-w-md rounded-xl bg-bg-color3 p-2 pb-3 pt-3 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl desktop:max-w-xl desktop:p-4">
             I am a highly motivated{' '}
-            <span className="text-icon-color">Full-Stack Web Developer</span>{' '}
+            <span className="dark:text-icon-color text-social-color">Full-Stack Web Developer</span>{' '}
             with a range of skills spanning from front-end to back-end. I would
             like to join a dynamic team, one that not only allows me to utilize
             my existing skills but also offers an environment where I can grow
@@ -139,7 +139,7 @@ export default function Home() {
             />
           </div>
           <p className="max-w-sm rounded-xl bg-secondary-bg-color p-2 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl desktop:max-w-md desktop:pl-4 desktop:pr-4">
-            <span className="text-icon-color">
+            <span className="dark:text-icon-color text-social-color">
               When I first saw a computer I was 12 years old
             </span>
             . And I have been curious about technology and video games ever

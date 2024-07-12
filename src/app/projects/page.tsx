@@ -1,7 +1,7 @@
 import { poppins } from '@/fonts';
 import { GrProjects } from 'react-icons/gr';
 import { projects } from '@/data';
-import { ProjectCard } from '@/components';
+import { ProjectCard } from '@/components/ProjectCard';
 
 export default function Projects() {
   return (
