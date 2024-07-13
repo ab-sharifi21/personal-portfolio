@@ -18,33 +18,8 @@ import { PiGraduationCapBold } from 'react-icons/pi';
 import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
 import { SiMysql } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
-
-const softSkills = [
-  {
-    id: 1,
-    name: 'Team Work',
-  },
-  {
-    id: 2,
-    name: 'Quick Learning Aptitude',
-  },
-  {
-    id: 3,
-    name: 'Time Management',
-  },
-  {
-    id: 4,
-    name: 'Problem Solving',
-  },
-  {
-    id: 5,
-    name: 'Attention to details',
-  },
-  {
-    id: 6,
-    name: 'Adaptation',
-  },
-];
+import { softSkills } from '@/data';
+import { educations } from '@/data';
 
 const skills = [
   {
@@ -111,25 +86,6 @@ const skills = [
     id: 5,
     name: 'TailwindCSS',
     icon: <RiTailwindCssFill className="h-8 w-8" />,
-  },
-];
-
-const educations = [
-  {
-    id: 1,
-    name: 'Level 3 Professional Certificate in Web Development (IFCD0210)',
-    year: '2023 - 2024',
-    bgColor: 'bg-color3',
-    schoolName: 'Academia Postal',
-    location: 'Santiago de Compostela, Galicia, Spain',
-  },
-  {
-    id: 2,
-    name: 'Full-Stack  Web Development Bootcamp',
-    year: 2023,
-    bgColor: 'secondary-bg-color',
-    schoolName: 'Hack A Boss',
-    location: 'A Coruña, Galicia, Spain',
   },
 ];
 

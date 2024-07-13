@@ -3,105 +3,7 @@ import { poppins } from '@/fonts';
 
 import Image from 'next/image';
 import { PiGraduationCapDuotone } from 'react-icons/pi';
-
-const experiences = [
-  {
-    id: 1,
-    year: '2024 - Present',
-    post: 'Front-End Developer',
-    company: {
-      name: 'Plexus Tech',
-      url: 'https://www.plexus.es/',
-    },
-    bgColor: 'secondary-bg-color',
-    tasks: [
-      {
-        id: 1,
-        description: 'Develop functionalities and user interfaces',
-      },
-      {
-        id: 2,
-        description: 'Create reusable components',
-      },
-      {
-        id: 3,
-        description: 'Participate in daily project tracking meetings',
-      },
-    ],
-  },
-  {
-    id: 2,
-    year: '2023 - Present',
-    post: 'Full-Stack Developer',
-    company: {
-      name: 'Freelance',
-      url: '#',
-    },
-    bgColor: 'bg-color3',
-    tasks: [
-      {
-        id: 1,
-        description: 'Develop personal front & back end projects',
-      },
-      {
-        id: 2,
-        description: 'Learn new programming languages & technologies',
-      },
-      {
-        id: 3,
-        description: 'Continuously improving my front & back end skills',
-      },
-    ],
-  },
-  {
-    id: 3,
-    year: 'Feb 2024 - Mar 2024',
-    post: 'Full-Stack Developer',
-    company: {
-      name: 'IGFAE',
-      url: 'https://igfae.usc.es/igfae/es/la-experiencia-de-abdullah-en-el-igfae-tres-semanas-de-trabajo-para-mejorar-la-organizacion-interna-del-centro/',
-    },
-    bgColor: 'bg-color3',
-    tasks: [
-      {
-        id: 1,
-        description: 'Develop functionalities and user interfaces',
-      },
-      {
-        id: 2,
-        description: 'Create reusable components',
-      },
-      {
-        id: 3,
-        description: 'Create a department staff database',
-      },
-    ],
-  },
-  {
-    id: 4,
-    year: '2018 - 2020',
-    post: 'English Instructor',
-    company: {
-      name: 'Takapoo',
-      url: '#',
-    },
-    bgColor: 'secondary-bg-color',
-    tasks: [
-      {
-        id: 1,
-        description: 'Organize the course work & learning materials',
-      },
-      {
-        id: 2,
-        description: 'Evaluate the progress of students',
-      },
-      {
-        id: 3,
-        description: 'Give classes',
-      },
-    ],
-  },
-];
+import { experiences } from '@/data';
 
 export default function Home() {
   return (
@@ -115,7 +17,9 @@ export default function Home() {
           </h2>
           <p className="max-w-md rounded-xl bg-bg-color3 p-2 pb-3 pt-3 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl desktop:max-w-xl desktop:p-4">
             I am a highly motivated{' '}
-            <span className="dark:text-icon-color text-social-color">Full-Stack Web Developer</span>{' '}
+            <span className="text-social-color dark:text-icon-color">
+              Full-Stack Web Developer
+            </span>{' '}
             with a range of skills spanning from front-end to back-end. I would
             like to join a dynamic team, one that not only allows me to utilize
             my existing skills but also offers an environment where I can grow
@@ -139,7 +43,7 @@ export default function Home() {
             />
           </div>
           <p className="max-w-sm rounded-xl bg-secondary-bg-color p-2 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl desktop:max-w-md desktop:pl-4 desktop:pr-4">
-            <span className="dark:text-icon-color text-social-color">
+            <span className="text-social-color dark:text-icon-color">
               When I first saw a computer I was 12 years old
             </span>
             . And I have been curious about technology and video games ever

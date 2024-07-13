@@ -13,12 +13,14 @@ export const ExperienceCard = ({ experienceInfo }: ExperienceCardProps) => {
     <div
       className={`bg-${bgColor} mb-4 w-[48%] rounded-xl p-3 pl-4 pr-4 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl`}
     >
-      <p className="text-sm dark:text-icon-color/90 text-social-color">{year}</p>
+      <p className="text-sm text-social-color dark:text-icon-color/90">
+        {year}
+      </p>
       <p className={`${poppins.className} font-semibold`}>{post}</p>
       <Link
         href={company.url}
         target={`${company.url.length > 1 ? '_blank' : '_self'}`}
-        className="font-semibold dark:text-icon-color text-social-color hover:text-icon-color duration-300 dark:hover:text-blue-600 hover:underline"
+        className="font-semibold text-social-color duration-300 hover:text-icon-color hover:underline dark:text-icon-color dark:hover:text-blue-600"
       >
         {company.name}
       </Link>
@@ -26,7 +28,7 @@ export const ExperienceCard = ({ experienceInfo }: ExperienceCardProps) => {
         {tasks.map((task) => {
           return (
             <li key={task.id} className="flex items-center gap-1 text-sm">
-              <FaLongArrowAltRight className="dark:text-icon-color/70 text-social-color" />
+              <FaLongArrowAltRight className="text-social-color dark:text-icon-color/70" />
               <span>{task.description}</span>
             </li>
           );

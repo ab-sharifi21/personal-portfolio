@@ -12,3 +12,4 @@
 4. TypeScript
 5. react-icons
 6. next-themes
+7. Emailjs
