@@ -22,7 +22,7 @@ export default function RootLayout({
         <Providers>
           <div className="flex min-h-screen w-screen flex-col p-[1rem] pb-[4rem] tablet:px-[5rem] desktop:max-w-[1414px]">
             <Header />
-            <main className="flex flex-col tablet:flex-row items-center flex-1 gap-8 desktop:gap-12">
+            <main className="flex flex-col tablet:flex-row items-center tablet:items-start flex-1 gap-8 desktop:gap-12">
               <SideBar />
               <div className="flex flex-1 flex-col items-end gap-2">
                 <NavBar />
