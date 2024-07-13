@@ -40,7 +40,7 @@ export const SideBar = () => {
   ];
 
   return (
-    <aside className="relative mt-[5rem] flex max-w-[280px] flex-col items-center rounded-2xl bg-white/50 p-[1.5rem] pb-[3rem] pt-[8rem] shadow-box-shadow dark:bg-dark-skill-bg-color">
+    <aside className="relative mt-[5rem] w-[85%] mobile:w-[60%] flex tablet:max-w-[280px] flex-col items-center rounded-2xl bg-white/50 p-[1.5rem] pb-[3rem] pt-[8rem] shadow-box-shadow dark:bg-dark-skill-bg-color">
       <Image
         src="/me.jpg"
         alt="Abdullah photo"
@@ -55,7 +55,15 @@ export const SideBar = () => {
       </h1>
       <p className="font-semibold text-icon-color">Full-Stack Web Developer</p>
       <SocialMediaList />
-      <div className="w-full flex-1 rounded-2xl bg-primary-bg-color p-[1rem] pb-8 pt-8 shadow-box-shadow dark:bg-dark-secondary-bg-color dark:shadow-2xl">
+      <a
+          download
+          href="/abdullah-sharifi.pdf"
+          className={`${poppins.className} tablet:hidden flex items-center justify-center gap-2 rounded-full bg-bt-bg-gradient p-3 pl-4 pr-4 font-semibold text-white/90 duration-300 hover:scale-105`}
+        >
+          <MdOutlineDownload className="h-5 w-5" />
+          <span>Download CV</span>
+        </a>
+      <div className="w-full hidden tablet:block flex-1 rounded-2xl bg-primary-bg-color p-[1rem] pb-8 pt-8 shadow-box-shadow dark:bg-dark-secondary-bg-color dark:shadow-2xl">
         {contacts.map((contact) => {
           return <ContactInfoCard key={contact.id} contact={contact} />;
         })}
