@@ -9,7 +9,7 @@ export const EducationCard = ({ educationInfo }: EducationCardProps) => {
   const { year, bgColor, name, schoolName, location } = educationInfo;
   return (
     <div
-      className={`bg-${bgColor} mb-4 w-[48%] rounded-xl p-3 pl-4 pr-4 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl`}
+      className={`bg-${bgColor} mb-4 w-full rounded-xl p-3 pl-4 pr-4 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl tablet:w-[48%]`}
     >
       <p className="mb-1 text-sm text-primary-font-color/70 dark:text-white/60">
         {year}

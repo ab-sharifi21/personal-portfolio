@@ -7,8 +7,8 @@ import { experiences } from '@/data';
 
 export default function Home() {
   return (
-    <div className="w-full flex-1 rounded-2xl bg-white/50 p-6 shadow-box-shadow dark:bg-dark-skill-bg-color desktop:pl-12 desktop:pr-12">
-      <div className="flex flex-col tablet:flex-row gap-6 justify-between tablet:gap-4">
+    <div className="desktop:xy-12 w-full flex-1 rounded-2xl bg-white/50 p-6 shadow-box-shadow dark:bg-dark-skill-bg-color">
+      <div className="flex flex-col justify-between gap-6 tablet:flex-row tablet:gap-4">
         <div>
           <h2
             className={`${poppins.className} mb-6 text-[1.3rem] font-bold capitalize`}
@@ -65,7 +65,7 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className="flex flex-col tablet:flex-row flex-wrap justify-between">
+        <div className="flex flex-col flex-wrap justify-between tablet:flex-row">
           {experiences.map((experience) => {
             return (
               <ExperienceCard key={experience.id} experienceInfo={experience} />
