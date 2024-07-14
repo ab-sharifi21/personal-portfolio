@@ -5,7 +5,7 @@ import { ProjectCard } from '@/components/ProjectCard';
 
 export default function Projects() {
   return (
-    <div className="w-full flex-1 rounded-2xl bg-white/50 p-4 pl-8 pr-8 shadow-box-shadow dark:bg-dark-skill-bg-color">
+    <div className="w-full flex-1 rounded-2xl bg-white/50 p-4 py-6 shadow-box-shadow dark:bg-dark-skill-bg-color tablet:px-8">
       <div className="mb-2 flex items-center gap-2">
         <GrProjects className="h-6 w-6 text-icon-color" />
         <h2
@@ -18,7 +18,7 @@ export default function Projects() {
         Here are some of works:
       </p>
 
-      <section className="flex flex-wrap justify-between gap-4">
+      <section className="flex flex-wrap justify-around gap-4">
         {projects.map((project) => {
           return <ProjectCard key={project.id} project={project} />;
         })}

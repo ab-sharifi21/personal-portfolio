@@ -5,7 +5,7 @@ export const projects: Project[] = [
     id: 1,
     name: 'P2P - Marketplace',
     description:
-      'P2P is a platform for buying and selling second-hand video games, consoles, accessories, and PCs. Users can search for products by category, price, name, and location. By signing up, users gain full access to add and purchase products.',
+      'It is a platform for buying and selling second-hand video games, consoles, accessories, and PCs. Users can search for products by name, price, category, and location. By signing up, users gain full access to add and buy products.',
     github: 'https://github.com/ab-sharifi21/Player2Player-Marketplace',
     url: 'https://www.youtube.com/watch?v=J51EmE-M_NM&t=18s',
     tools: ['HTML', 'CSS', 'JavaScript', 'Node', 'Express', 'React', 'SQL'],
