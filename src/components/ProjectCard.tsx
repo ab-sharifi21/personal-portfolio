@@ -17,7 +17,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       className={`bg-${bgColor} mb-4 rounded-xl shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl`}
     >
       <div className="group relative cursor-pointer items-center justify-center overflow-hidden rounded-tl-xl rounded-tr-xl transition-shadow hover:shadow-xl hover:shadow-black/30">
-        <div className="h-[230px] w-[400px] rounded-xl">
+        <div className="h-[220px] w-[365px] rounded-xl mobile:h-[230px] mobile:w-[400px]">
           <Image
             width={400}
             height={230}
@@ -27,7 +27,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           />
         </div>
         <div className="absolute inset-0 rounded-tl-xl rounded-tr-xl bg-gradient-to-b from-transparent via-transparent to-white group-hover:from-white/60 group-hover:via-white/70 group-hover:to-white/60 dark:to-black dark:group-hover:from-black/70 dark:group-hover:via-black/60 dark:group-hover:to-black/70"></div>
-        <div className="absolute inset-0 flex translate-y-[100%] flex-col items-center justify-center rounded-tl-xl rounded-tr-xl px-6 transition-all duration-500 group-hover:translate-y-0">
+        <div className="absolute inset-0 flex translate-y-[100%] flex-col items-center justify-center rounded-tl-xl rounded-tr-xl px-2 transition-all duration-500 group-hover:translate-y-0 mobile:px-4 tablet:px-6">
           <p
             className={`mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100`}
           >
