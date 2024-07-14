@@ -101,13 +101,13 @@ export default function Education() {
         </h2>
       </div>
 
-      <div className="flex flex-wrap justify-between">
+      <div className="flex flex-col flex-wrap justify-between tablet:flex-row">
         {educations.map((education) => {
           return <EducationCard key={education.id} educationInfo={education} />;
         })}
       </div>
 
-      <div className="mt-10 flex justify-between gap-10">
+      <div className="mt-10 flex flex-col justify-between gap-10 tablet:flex-row">
         <div className="max-w-md">
           <div className="mb-6 flex items-center gap-2">
             <GrTechnology className="h-6 w-6 text-icon-color" />
@@ -134,7 +134,7 @@ export default function Education() {
           </ul>
         </div>
 
-        <div className="max-w-sm">
+        <div className="max-w-sm pb-4 tablet:pb-0">
           <div className="mb-6 flex items-center gap-2">
             <ImHappy className="h-6 w-6 text-icon-color" />
             <h2
@@ -163,7 +163,7 @@ export default function Education() {
               width={180}
               height={200}
               alt="hello"
-              className="m-4 ml-auto"
+              className="m-4 ml-auto hidden tablet:block"
             />
           </Tooltip>
         </div>

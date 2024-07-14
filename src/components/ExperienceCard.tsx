@@ -11,7 +11,7 @@ export const ExperienceCard = ({ experienceInfo }: ExperienceCardProps) => {
   const { year, post, company, tasks, bgColor } = experienceInfo;
   return (
     <div
-      className={`bg-${bgColor} mb-4 w-full tablet:w-[48%] rounded-xl p-3 pl-4 pr-4 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl`}
+      className={`bg-${bgColor} mb-4 w-full rounded-xl p-3 pl-4 pr-4 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl tablet:w-[48%]`}
     >
       <p className="text-sm text-social-color dark:text-icon-color/90">
         {year}
