@@ -32,7 +32,7 @@ const links = [
 
 export const NavBar = () => {
   return (
-    <nav className="flex justify-around gap-3 rounded-xl border p-2 pl-4 pr-4 shadow-box-shadow dark:border-dark-primary-font-color/50">
+    <nav className="sticky top-1 z-20 flex w-full justify-around gap-3 rounded-xl border p-2 pl-4 pr-4 shadow-box-shadow dark:border-dark-primary-font-color/50 tablet:static tablet:w-[auto]">
       {links.map((link) => {
         return <Nav key={link.id} link={link} />;
       })}
