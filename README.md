@@ -1,11 +1,16 @@
-# New web developer portfolio website with Next.js
+# 🌐 My Personal Website
+[Demo](https://abdullah-sharifi.vercel.app/)
 
-## The design
+<div align="center">
+    <img src="./public/portfolio-dark.png" />
+</div>
 
-[figma design](<https://www.figma.com/design/JnimM2vOsAs5zwpFFR2lvx/Portfolio-Design-(Community)?node-id=0-1&t=1sv2mEKyEFgcweA1-0>)
 
-# Technologies
+## 🤖 Design inspiration
+- [Figma design](<https://www.figma.com/design/JnimM2vOsAs5zwpFFR2lvx/Portfolio-Design-(Community)?node-id=0-1&t=1sv2mEKyEFgcweA1-0>)
 
+
+## Technologies
 1. HTML
 2. Tailwind CSS
 3. Next.js
