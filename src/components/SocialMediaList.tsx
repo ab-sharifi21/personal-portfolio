@@ -39,14 +39,14 @@ export const SocialMediaList = () => {
     ),
   };
 
-  const phone = {
-    id: 2,
-    name: 'Phone',
-    url: 'tel:0034632698684',
-    icon: (
-      <MdOutlinePhoneInTalk className="h-[28px] w-[28px] duration-1000 group-hover:rotate-360 group-hover:scale-110" />
-    ),
-  };
+  // const phone = {
+  //   id: 2,
+  //   name: 'Phone',
+  //   url: 'tel:0034632698684',
+  //   icon: (
+  //     <MdOutlinePhoneInTalk className="h-[28px] w-[28px] duration-1000 group-hover:rotate-360 group-hover:scale-110" />
+  //   ),
+  // };
 
   return (
     <div className="mb-[2rem] mt-[2rem] flex flex-wrap items-center justify-center gap-[1.2rem]">
@@ -62,7 +62,7 @@ export const SocialMediaList = () => {
           </Tooltip>
         );
       })}
-      <SocialMediaCard social={phone} />
+      {/* <SocialMediaCard social={phone} /> */}
     </div>
   );
 };
