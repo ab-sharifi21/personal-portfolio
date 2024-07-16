@@ -3,7 +3,18 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
 
-export const ContactForm = () => {
+interface ContactFormProps {
+  userId: string | any;
+  serviceId: string | any;
+  templateId: string | any;
+}
+
+export const ContactForm = ({
+  userId,
+  serviceId,
+  templateId,
+}: ContactFormProps) => {
+  console.log(userId);
   const formInitialDetails = {
     subject: '',
     fullName: '',
@@ -24,12 +35,7 @@ export const ContactForm = () => {
     setSubmitButtonText('Sending...');
 
     emailjs
-      .send(
-        'service_fz97a4y',
-        'template_mal4tcf',
-        formDetails,
-        '6bZoIKzWcrfEh8Cw8',
-      )
+      .send(`${serviceId}`, `${templateId}`, formDetails, `${userId}`)
       .then(
         (result) => {
           console.log(result.text);
