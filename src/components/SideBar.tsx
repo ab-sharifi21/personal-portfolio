@@ -62,7 +62,7 @@ export const SideBar = () => {
       </div>
       <a
         download
-        href="/Abdullah-Sharifi-CV.pdf"
+        href="/abdullah_sharifi_cv.pdf"
         className={`${poppins.className} flex items-center justify-center gap-2 rounded-full bg-bt-bg-gradient p-3 pl-4 pr-4 font-semibold text-white/90 duration-300 hover:scale-105 tablet:mt-8`}
       >
         <MdOutlineDownload className="h-5 w-5" />
