@@ -77,6 +77,14 @@ export const softSkills = [
 export const educations = [
   {
     id: 1,
+    name: 'Desarrollo de Aplicaciones Web (DAW)',
+    year: '2024 - Present',
+    bgColor: 'secondary-bg-color',
+    schoolName: 'IES San Clemente',
+    location: 'Santiago de Compostela, Galicia, Spain',
+  },
+  {
+    id: 2,
     name: 'Level 3 Professional Certificate in Web Development (IFCD0210)',
     year: '2023 - 2024',
     bgColor: 'bg-color3',
@@ -84,7 +92,7 @@ export const educations = [
     location: 'Santiago de Compostela, Galicia, Spain',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Full-Stack  Web Development Bootcamp',
     year: 2023,
     bgColor: 'secondary-bg-color',
@@ -96,7 +104,7 @@ export const educations = [
 export const experiences = [
   {
     id: 1,
-    year: '2024 - Present',
+    year: 'Jan - Oct 2024',
     post: 'Front-End Developer',
     company: {
       name: 'Plexus Tech',
