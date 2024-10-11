@@ -34,17 +34,17 @@ export const projects: Project[] = [
     imageUrl: '/movie-app.png',
     bgColor: 'secondary-bg-color',
   },
-  {
-    id: 4,
-    name: 'To Do App',
-    description:
-      'This simple app, built with React, TypeScript, and TailwindCSS, allows you to add, edit, remove, and mark tasks as completed or uncompleted.',
-    github: 'https://github.com/ab-sharifi21/To-Do-App-React',
-    url: 'https://ab-todo-app-react.netlify.app/',
-    tools: ['HTML', 'CSS', 'Tailwind', 'TypeScript', 'React'],
-    imageUrl: '/todo-app.png',
-    bgColor: 'bg-color3',
-  },
+  // {
+  //   id: 4,
+  //   name: 'To Do App',
+  //   description:
+  //     'This simple app, built with React, TypeScript, and TailwindCSS, allows you to add, edit, remove, and mark tasks as completed or uncompleted.',
+  //   github: 'https://github.com/ab-sharifi21/To-Do-App-React',
+  //   url: 'https://ab-todo-app-react.netlify.app/',
+  //   tools: ['HTML', 'CSS', 'Tailwind', 'TypeScript', 'React'],
+  //   imageUrl: '/todo-app.png',
+  //   bgColor: 'bg-color3',
+  // },
 ];
 
 export const softSkills = [
