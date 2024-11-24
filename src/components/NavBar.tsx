@@ -6,25 +6,25 @@ import { FaGraduationCap } from 'react-icons/fa';
 const links = [
   {
     id: 1,
-    name: 'Home',
+    name: 'home',
     url: '/',
     icon: <IoHomeOutline className="h-[1.3rem] w-[1.3rem]" />,
   },
   {
     id: 2,
-    name: 'Education',
+    name: 'education',
     url: '/education',
     icon: <FaGraduationCap className="h-[1.3rem] w-[1.3rem]" />,
   },
   {
     id: 3,
-    name: 'Projects',
+    name: 'projects',
     url: '/projects',
     icon: <IoCodeSlash className="h-[1.3rem] w-[1.3rem]" />,
   },
   {
     id: 4,
-    name: 'Contact',
+    name: 'contact',
     url: '/contact',
     icon: <MdOutlinePhoneInTalk className="h-[1.3rem] w-[1.3rem]" />,
   },

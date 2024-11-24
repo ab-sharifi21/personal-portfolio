@@ -1,7 +1,12 @@
 {
   "LocaleSwitcher": {
     "en": "English",
-    "es": "Spanish",
-    "label": "Language"
+    "es": "Spanish"
+  },
+  "menu": {
+    "home" : "Home",
+    "education" : "Education",
+    "projects" : "Projects",
+    "contact" : "Contact"
   }
 }
