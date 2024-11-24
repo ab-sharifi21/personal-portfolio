@@ -3,6 +3,9 @@
     "en": "Inglés",
     "es": "Español"
   },
+  "general": {
+    "download_cv": "Descargar CV"
+  },
   "menu": {
     "home": "Home",
     "education": "Formación",
