@@ -13,5 +13,24 @@
     "phone": "Teléfono",
     "email": "Correo electrónico",
     "location": "Ubicación"
+  },
+  "about_me": {
+    "my_title": "Desarrollador Web Full-Stack",
+    "description_1": "Soy un",
+    "description_2": "con casi un año de experiencia en Plexus Tech. Me destaco por mi motivación, responsabilidad y un conjunto de habilidades que abarcan tanto el front-end como el back-end. Busco formar parte de un equipo dinámico donde pueda aportar mis conocimientos, aprender y crecer.",
+    "something_interesting": "Algo Interesante",
+    "interesting_1": "La primera vez que vi una computadora tenía 12 años,",
+    "interesting_2": "y desde ese momento despertó en mí una gran curiosidad por la tecnología y los videojuegos. Desde entonces, me embarqué en esta apasionante aventura, explorando y aprendiendo sobre ellos de manera autodidacta."
+  },
+  "titles": {
+    "about_me": "Sobre Mi",
+    "education": "Formación",
+    "experience": "Experiencia",
+    "projects": "Proyextos",
+    "contact": "Contacto",
+    "skills": "Habilidades",
+    "soft_skills": "Soft Skills",
+    "languages": "Lenguajes",
+    "download_cv": "Descargar CV"
   }
 }

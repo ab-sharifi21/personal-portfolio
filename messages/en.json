@@ -13,5 +13,24 @@
     "phone": "Phone",
     "email": "Email",
     "location": "Location"
+  },
+  "about_me": {
+    "my_title": "Full-Stack Web Developer",
+    "description_1": "I’m a",
+    "description_2": "with almost a year of experience at Plexus Tech. I’m motivated, responsible, and skilled in both front-end and back-end development. I’m looking to join a dynamic team where I can apply my knowledge and keep growing both technically and professionally.",
+    "something_interesting": "Something Interesting",
+    "interesting_1": "When I first saw a computer I was 12 years old.",
+    "interesting_2": " And I have been curious about technology and video games ever since. So I jumped into this amazing adventure, exploring and discovering everything about them all on my own."
+  },
+  "titles": {
+    "about_me": "About Me",
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "skills": "Habilidades",
+    "soft_skills": "Soft Skills",
+    "languages": "languages",
+    "download_cv": "Download CV"
   }
 }
