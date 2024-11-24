@@ -104,8 +104,8 @@ export const educations = [
 export const experiences = [
   {
     id: 1,
-    year: 'Jan - Oct 2024',
-    post: 'Front-End Developer',
+    year: 'plexus.year',
+    post: 'plexus.title',
     company: {
       name: 'Plexus Tech',
       url: 'https://www.plexus.es/',
@@ -114,22 +114,22 @@ export const experiences = [
     tasks: [
       {
         id: 1,
-        description: 'Develop functionalities and user interfaces',
+        description: 'plexus.function_1',
       },
       {
         id: 2,
-        description: 'Create reusable components',
+        description: 'plexus.function_2',
       },
       {
         id: 3,
-        description: 'Participate in daily project tracking meetings',
+        description: 'plexus.function_3',
       },
     ],
   },
   {
     id: 2,
-    year: '2023 - Present',
-    post: 'Full-Stack Developer',
+    year: 'freelance.year',
+    post: 'freelance.title',
     company: {
       name: 'Freelance',
       url: '#',
@@ -138,22 +138,22 @@ export const experiences = [
     tasks: [
       {
         id: 1,
-        description: 'Develop personal front & back end projects',
+        description: 'freelance.function_1',
       },
       {
         id: 2,
-        description: 'Learn new programming languages & technologies',
+        description: 'freelance.function_2',
       },
       {
         id: 3,
-        description: 'Continuously improving my front & back end skills',
+        description: 'freelance.function_3',
       },
     ],
   },
   {
     id: 3,
-    year: 'Feb 2024 - Mar 2024',
-    post: 'Full-Stack Developer',
+    year: 'igfae.year',
+    post: 'igfae.title',
     company: {
       name: 'IGFAE',
       url: 'https://igfae.usc.es/igfae/es/la-experiencia-de-abdullah-en-el-igfae-tres-semanas-de-trabajo-para-mejorar-la-organizacion-interna-del-centro/',
@@ -162,22 +162,22 @@ export const experiences = [
     tasks: [
       {
         id: 1,
-        description: 'Develop functionalities and user interfaces',
+        description: 'igfae.function_1',
       },
       {
         id: 2,
-        description: 'Create reusable components',
+        description: 'igfae.function_2',
       },
       {
         id: 3,
-        description: 'Create a department staff database',
+        description: 'igfae.function_3',
       },
     ],
   },
   {
     id: 4,
-    year: '2018 - 2020',
-    post: 'English Instructor',
+    year: 'takapoo.year',
+    post: 'takapoo.title',
     company: {
       name: 'Takapoo',
       url: '#',
@@ -186,15 +186,15 @@ export const experiences = [
     tasks: [
       {
         id: 1,
-        description: 'Organize the course work & learning materials',
+        description: 'takapoo.function_1',
       },
       {
         id: 2,
-        description: 'Evaluate the progress of students',
+        description: 'takapoo.function_2',
       },
       {
         id: 3,
-        description: 'Give classes',
+        description: 'takapoo.function_3',
       },
     ],
   },

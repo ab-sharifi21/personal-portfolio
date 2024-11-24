@@ -15,6 +15,7 @@
     "location": "Location"
   },
   "about_me": {
+    "title": "About Me",
     "my_title": "Full-Stack Web Developer",
     "description_1": "I’m a",
     "description_2": "with almost a year of experience at Plexus Tech. I’m motivated, responsible, and skilled in both front-end and back-end development. I’m looking to join a dynamic team where I can apply my knowledge and keep growing both technically and professionally.",
@@ -22,15 +23,39 @@
     "interesting_1": "When I first saw a computer I was 12 years old.",
     "interesting_2": " And I have been curious about technology and video games ever since. So I jumped into this amazing adventure, exploring and discovering everything about them all on my own."
   },
-  "titles": {
-    "about_me": "About Me",
-    "education": "Education",
-    "experience": "Experience",
-    "projects": "Projects",
-    "contact": "Contact",
-    "skills": "Habilidades",
-    "soft_skills": "Soft Skills",
-    "languages": "languages",
-    "download_cv": "Download CV"
+  "experiences": {
+    "title": "Experience",
+    "plexus": {
+      "company": "Plexus Tech",
+      "year": "Jan - Oct 2024",
+      "title": "Front-End Developer",
+      "function_1": "Develop functionalities and user interfaces",
+      "function_2": "Create reusable components",
+      "function_3": "Participate in daily project tracking meetings"
+    },
+    "igfae": {
+      "company": "IGFAE",
+      "title": "Full-Stack Developer",
+      "year": "Feb - Mar 2024",
+      "function_1": "Develop functionalities and user interfaces",
+      "function_2": "Create reusable components",
+      "function_3": "Create a department staff database"
+    },
+    "freelance": {
+      "company": "Freelance",
+      "year": "2023 - Actual",
+      "title": "Full-Stack Developer",
+      "function_1": "Develop personal front & back end projects",
+      "function_2": "Learn new programming languages & technologies",
+      "function_3": "Continuously improving my front & back end skills"
+    },
+    "takapoo": {
+      "company": "Takapoo",
+      "year": "2018 - 2020",
+      "title": "English Instructor",
+      "function_1": "Organize the course work & learning materials",
+      "function_2": "Evaluate the progress of students",
+      "function_3": "Give classes"
+    }
   }
 }

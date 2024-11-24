@@ -15,7 +15,7 @@ export default function Home() {
           <h2
             className={`${poppins.className} mb-6 text-[1.3rem] font-bold capitalize`}
           >
-            {t('titles.about_me')}
+            {t('about_me.title')}
             <span className="text-2xl text-icon-color">.</span>
           </h2>
           <p className="max-w-md rounded-xl bg-bg-color3 p-2 pb-3 pt-3 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl desktop:max-w-xl desktop:p-4">
@@ -59,7 +59,7 @@ export default function Home() {
           <h2
             className={`${poppins.className} text-[1.3rem] font-bold capitalize`}
           >
-            Experience<span className="text-2xl text-icon-color">.</span>
+            {t('experiences.title')}
           </h2>
         </div>
 
