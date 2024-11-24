@@ -4,9 +4,14 @@
     "es": "Spanish"
   },
   "menu": {
-    "home" : "Home",
-    "education" : "Education",
-    "projects" : "Projects",
-    "contact" : "Contact"
+    "home": "Home",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "contact": {
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location"
   }
 }

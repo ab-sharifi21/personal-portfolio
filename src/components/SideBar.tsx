@@ -12,7 +12,7 @@ export const SideBar = () => {
   const contacts = [
     {
       id: 1,
-      name: 'Phone',
+      name: 'phone',
       url: 'tel:0034632698684',
       value: '+34632698684',
       icon: (
@@ -21,7 +21,7 @@ export const SideBar = () => {
     },
     {
       id: 2,
-      name: 'Email',
+      name: 'email',
       url: 'mailto:ab.sharifi19@gmail.com',
       value: 'ab.sharifi19@gmail.com',
       icon: (
@@ -30,7 +30,7 @@ export const SideBar = () => {
     },
     {
       id: 3,
-      name: 'Location',
+      name: 'location',
       url: '#',
       value: 'Galicia, Spain',
       icon: (
