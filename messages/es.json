@@ -4,7 +4,8 @@
     "es": "Español"
   },
   "general": {
-    "download_cv": "Descargar CV"
+    "download_cv": "Descargar CV",
+    "skills_and_technologies": "Tecnologías & Habilidades"
   },
   "menu": {
     "home": "Home",
@@ -81,5 +82,14 @@
       "year": "2023",
       "location": "A Coruña, Galicia, España"
     }
+  },
+  "soft_skills": {
+    "title": "Habilidades Blandas",
+    "team_work": "Trabajo en Equipo",
+    "quick_learning_aptitude": "Aprendizaje Rápido",
+    "time_management": "Gestión del Tiempo",
+    "problem_solving": "Resolución de Problemas",
+    "attention_to_details": "Atención a los Detalles",
+    "adaptation": "Adaptación"
   }
 }

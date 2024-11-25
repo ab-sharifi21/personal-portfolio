@@ -4,7 +4,8 @@
     "es": "Spanish"
   },
   "general": {
-    "download_cv": "Download CV"
+    "download_cv": "Download CV",
+    "skills_and_technologies": "technologies & skills"
   },
   "menu": {
     "home": "Home",
@@ -81,5 +82,14 @@
       "year": "2023",
       "location": "A Coruña, Galicia, Spain"
     }
+  },
+  "soft_skills": {
+    "title": "Soft Skills",
+    "team_work": "Team Work",
+    "quick_learning_aptitude": "Quick Learning Aptitude",
+    "time_management": "Time Management",
+    "problem_solving": "Problem Solving",
+    "attention_to_details": "Attention to details",
+    "adaptation": "Adaptation"
   }
 }

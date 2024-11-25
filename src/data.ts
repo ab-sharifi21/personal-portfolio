@@ -50,27 +50,27 @@ export const projects: Project[] = [
 export const softSkills = [
   {
     id: 1,
-    name: 'Team Work',
+    name: 'team_work',
   },
   {
     id: 2,
-    name: 'Quick Learning Aptitude',
+    name: 'quick_learning_aptitude',
   },
   {
     id: 3,
-    name: 'Time Management',
+    name: 'time_management',
+  },
+  {
+    name: 'adaptation',
+    id: 6,
   },
   {
     id: 4,
-    name: 'Problem Solving',
+    name: 'problem_solving',
   },
   {
     id: 5,
-    name: 'Attention to details',
-  },
-  {
-    id: 6,
-    name: 'Adaptation',
+    name: 'attention_to_details',
   },
 ];
 
