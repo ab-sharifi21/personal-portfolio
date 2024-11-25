@@ -77,27 +77,27 @@ export const softSkills = [
 export const educations = [
   {
     id: 1,
-    name: 'Desarrollo de Aplicaciones Web (DAW)',
-    year: '2024 - Present',
+    name: 'san_clemente.name',
+    year: 'san_clemente.year',
     bgColor: 'secondary-bg-color',
     schoolName: 'IES San Clemente',
-    location: 'Santiago de Compostela, Galicia, Spain',
+    location: 'san_clemente.location',
   },
   {
     id: 2,
-    name: 'Level 3 Professional Certificate in Web Development (IFCD0210)',
-    year: '2023 - 2024',
+    name: 'academia_postal.name',
+    year: 'academia_postal.year',
     bgColor: 'bg-color3',
     schoolName: 'Academia Postal',
-    location: 'Santiago de Compostela, Galicia, Spain',
+    location: 'academia_postal.location',
   },
   {
     id: 3,
-    name: 'Full-Stack  Web Development Bootcamp',
-    year: 2023,
+    name: 'hack_a_boss.name',
+    year: 'hack_a_boss.year',
     bgColor: 'secondary-bg-color',
     schoolName: 'Hack A Boss',
-    location: 'A Coruña, Galicia, Spain',
+    location: 'hack_a_boss.location',
   },
 ];
 

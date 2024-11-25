@@ -60,5 +60,26 @@
       "function_2": "Evaluate the progress of students",
       "function_3": "Give classes"
     }
+  },
+  "education": {
+    "title": "Education",
+    "san_clemente": {
+      "school_name": "IES San Clemente",
+      "name": "Web Aplications Development (DAW)",
+      "year": "2024 - Present",
+      "location": "Santiago de Compostela, Galicia, Spain"
+    },
+    "academia_postal": {
+      "school_name": "Academia Postal",
+      "name": "Level 3 Professional Certificate in Web Development (IFCD0210)",
+      "year": "2023 - 2024",
+      "location": "Santiago de Compostela, Galicia, Spain"
+    },
+    "hack_a_boss": {
+      "school_name": "Hack A Boss",
+      "name": "Full-Stack Web Development Bootcamp",
+      "year": "2023",
+      "location": "A Coruña, Galicia, Spain"
+    }
   }
 }

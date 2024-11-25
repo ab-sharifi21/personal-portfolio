@@ -20,6 +20,7 @@ import { SiMysql } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 import { softSkills } from '@/data';
 import { educations } from '@/data';
+import { useTranslations } from 'next-intl';
 
 const skills = [
   {
@@ -90,6 +91,8 @@ const skills = [
 ];
 
 export default function Education() {
+  const t = useTranslations('education');
+
   return (
     <div className="w-full flex-1 rounded-2xl bg-white/50 p-4 pl-8 pr-8 shadow-box-shadow dark:bg-dark-skill-bg-color">
       <div className="mb-6 flex items-center gap-2">
@@ -97,7 +100,8 @@ export default function Education() {
         <h2
           className={`${poppins.className} text-[1.3rem] font-bold capitalize`}
         >
-          Education<span className="text-2xl text-icon-color">.</span>
+          {t('title')}
+          <span className="text-2xl text-icon-color">.</span>
         </h2>
       </div>
 
