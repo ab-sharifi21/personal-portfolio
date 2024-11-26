@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { useTranslations } from 'next-intl';
 
 interface ContactFormProps {
   userId: string | any;
@@ -14,7 +15,9 @@ export const ContactForm = ({
   serviceId,
   templateId,
 }: ContactFormProps) => {
-  console.log(userId);
+
+  const t = useTranslations('contact_page');
+
   const formInitialDetails = {
     subject: '',
     fullName: '',
@@ -24,7 +27,7 @@ export const ContactForm = ({
   };
 
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [submitButtonText, setSubmitButtonText] = useState('Send');
+  const [submitButtonText, setSubmitButtonText] = useState(t('send'));
 
   const onFormUpdate = (field: string, value: string) => {
     setFormDetails({ ...formDetails, [field]: value });
@@ -32,7 +35,7 @@ export const ContactForm = ({
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
-    setSubmitButtonText('Sending...');
+    setSubmitButtonText(t('sending'));
 
     emailjs
       .send(`${serviceId}`, `${templateId}`, formDetails, `${userId}`)
@@ -67,7 +70,7 @@ export const ContactForm = ({
         type="text"
         name="fullName"
         value={formDetails.fullName}
-        placeholder="Full name"
+        placeholder={t('full_name')}
         onChange={(e) => onFormUpdate('fullName', e.target.value)}
       />
       <input
@@ -76,7 +79,7 @@ export const ContactForm = ({
         type="email"
         name="email"
         value={formDetails.email}
-        placeholder="Email address"
+        placeholder={t('email')}
         onChange={(e) => onFormUpdate('email', e.target.value)}
       />
       <input
@@ -84,7 +87,7 @@ export const ContactForm = ({
         type="tel"
         name="phone"
         value={formDetails.phone}
-        placeholder="Phone number"
+        placeholder={t('phone')}
         onChange={(e) => onFormUpdate('phone', e.target.value)}
       />
       <input
@@ -93,7 +96,7 @@ export const ContactForm = ({
         type="text"
         name="subject"
         value={formDetails.subject}
-        placeholder="Subject"
+        placeholder={t('subject')}
         onChange={(e) => onFormUpdate('subject', e.target.value)}
       />
       <textarea
@@ -102,7 +105,7 @@ export const ContactForm = ({
         className="w-full resize-none rounded-lg border bg-transparent px-4 py-3 caret-icon-color shadow-box-shadow outline-none duration-500 hover:bg-skill-bg-color hover:shadow-box-shadow focus:bg-skill-bg-color dark:border-dark-primary-font-color/50 dark:hover:bg-[#383838] dark:focus:bg-[#383838]"
         name="message"
         value={formDetails.message}
-        placeholder="Your message"
+        placeholder={t('message')}
         onChange={(e) => onFormUpdate('message', e.target.value)}
       />
       <div className="flex gap-4">
@@ -111,7 +114,7 @@ export const ContactForm = ({
           className="mt-4 w-[100px] rounded-xl border border-icon-color bg-bt-bg-gradient px-4 py-2 duration-300 hover:scale-105"
           type="reset"
         >
-          Cancel
+          {t('cancel')}
         </button>
         <button
           className="mt-4 w-[100px] rounded-xl border border-icon-color bg-bt-bg-gradient px-4 py-2 duration-300 hover:scale-105"

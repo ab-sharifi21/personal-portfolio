@@ -94,6 +94,14 @@
   },
   "contact_page": {
     "title": "Contact",
-    "contact_message": "Get in touch and let's work together!"
+    "contact_message": "Get in touch and let's work together!",
+    "full_name": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "subject": "Subject",
+    "message": "Your message",
+    "send": "send",
+    "cancel": "Cancel",
+    "sending": "Sending..."
   }
 }

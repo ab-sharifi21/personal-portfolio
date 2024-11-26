@@ -94,6 +94,14 @@
   },
   "contact_page": {
     "title": "Contacto",
-    "contact_message": "¡Ponte en contacto y trabajemos juntos!"
+    "contact_message": "¡Ponte en contacto y trabajemos juntos!",
+    "full_name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "subject": "Asunto",
+    "message": "Tu mensaje",
+    "send": "Enviar",
+    "cancel": "Cancelar",
+    "sending": "Enviando..."
   }
 }
