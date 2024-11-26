@@ -91,5 +91,9 @@
     "problem_solving": "Problem Solving",
     "attention_to_details": "Attention to details",
     "adaptation": "Adaptation"
+  },
+  "contact_page": {
+    "title": "Contact",
+    "contact_message": "Get in touch and let's work together!"
   }
 }
