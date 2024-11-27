@@ -4,8 +4,7 @@ export const projects: Project[] = [
   {
     id: 1,
     name: 'P2P - Marketplace',
-    description:
-      'It is a platform for buying and selling second-hand video games, consoles, accessories, and PCs. Users can search for products by name, price, category, and location. By signing up, users gain full access to add and buy products.',
+    description: 'p2p.description',
     github: 'https://github.com/ab-sharifi21/Player2Player-Marketplace',
     url: 'https://www.youtube.com/watch?v=J51EmE-M_NM&t=18s',
     tools: ['HTML', 'CSS', 'JavaScript', 'Node', 'Express', 'React', 'SQL'],
@@ -15,8 +14,7 @@ export const projects: Project[] = [
   {
     id: 3,
     name: 'Weather App',
-    description:
-      'This responsive app provides hourly weather forecasts and five-day predictions. Users can access this information by entering their preferred city name or using their current location.',
+    description: 'weather_app.description',
     github: 'https://github.com/ab-sharifi21/weather-app-react-spa',
     url: 'https://weather-app-react-spa.netlify.app',
     tools: ['HTML', 'Tailwind', 'TypeScript', 'React'],

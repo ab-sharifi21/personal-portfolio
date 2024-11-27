@@ -144,7 +144,8 @@ export default function Education() {
             <h2
               className={`${poppins.className} text-[1.3rem] font-bold capitalize`}
             >
-              {t(`soft_skills.title`)}<span className="text-2xl text-icon-color">.</span>
+              {t(`soft_skills.title`)}
+              <span className="text-2xl text-icon-color">.</span>
             </h2>
           </div>
 

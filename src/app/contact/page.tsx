@@ -15,7 +15,8 @@ export default function Contact() {
         <h2
           className={`${poppins.className} text-[1.3rem] font-bold capitalize`}
         >
-          {t('contact_page.title')}<span className="text-2xl text-icon-color">.</span>
+          {t('contact_page.title')}
+          <span className="text-2xl text-icon-color">.</span>
         </h2>
       </div>
       <p className="mb-8 text-sm dark:text-dark-primary-font-color/50">

@@ -103,5 +103,17 @@
     "send": "Enviar",
     "cancel": "Cancelar",
     "sending": "Enviando..."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "projects_text": "Aquí hay algunos de mis proyectos",
+    "p2p": {
+      "title": "P2P - Marketplace",
+      "description": "Es una plataforma para comprar y vender videojuegos, consolas, accesorios y PCs de segunda mano. Los usuarios pueden buscar productos por nombre, precio, etc, y al registrarse, pueden añadir y comprar artículos."
+    },
+    "weather_app": {
+      "title": "Weather App",
+      "description": "Esta aplicación adaptable ofrece pronósticos del clima por hora y predicciones para los próximos cinco días. Los usuarios pueden acceder a esta información ingresando el nombre de su ciudad preferida o utilizando su ubicación actual."
+    }
   }
 }

@@ -15,7 +15,6 @@ export const ContactForm = ({
   serviceId,
   templateId,
 }: ContactFormProps) => {
-
   const t = useTranslations('contact_page');
 
   const formInitialDetails = {
