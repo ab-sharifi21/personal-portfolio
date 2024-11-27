@@ -21,28 +21,6 @@ export const projects: Project[] = [
     imageUrl: '/weather.png',
     bgColor: 'bg-color3',
   },
-  {
-    id: 2,
-    name: 'MovieMix',
-    description:
-      'It is a movie web app that utilizes (TMDb) API to provide comprehensive information about movies. Discover everything from plot summaries and cast details to release dates and ratings, all in one place.',
-    github: 'https://github.com/ab-sharifi21/MovieMix',
-    url: 'https://mixmovie.netlify.app/',
-    tools: ['Next.js', 'HTML', 'CSS', 'Tailwind', 'TypeScript', 'React'],
-    imageUrl: '/movie-app.png',
-    bgColor: 'secondary-bg-color',
-  },
-  // {
-  //   id: 4,
-  //   name: 'To Do App',
-  //   description:
-  //     'This simple app, built with React, TypeScript, and TailwindCSS, allows you to add, edit, remove, and mark tasks as completed or uncompleted.',
-  //   github: 'https://github.com/ab-sharifi21/To-Do-App-React',
-  //   url: 'https://ab-todo-app-react.netlify.app/',
-  //   tools: ['HTML', 'CSS', 'Tailwind', 'TypeScript', 'React'],
-  //   imageUrl: '/todo-app.png',
-  //   bgColor: 'bg-color3',
-  // },
 ];
 
 export const softSkills = [
