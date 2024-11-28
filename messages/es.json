@@ -43,7 +43,7 @@
       "title": "Desarrollador Full-Stack",
       "function_1": "Desarrollar funcionalidades e interfaces de usuario",
       "function_2": "Crear componentes reutilizables.",
-      "function_3": "Crear una base de datos de personal por departamento"
+      "function_3": "Crear una base de datos de personal para el departamento"
     },
     "freelance": {
       "company": "Freelance",
@@ -109,7 +109,7 @@
     "projects_text": "Aquí hay algunos de mis proyectos",
     "p2p": {
       "title": "P2P - Marketplace",
-      "description": "Es una plataforma para comprar y vender videojuegos, consolas, accesorios y PCs de segunda mano. Los usuarios pueden buscar productos por nombre, precio, etc, y al registrarse, pueden añadir y comprar artículos."
+      "description": "Es una plataforma de compra y venta de videojuegos, consolas, accesorios y PCs de segunda mano. Los usuarios pueden buscar productos por nombre, precio, etc, y al registrarse, pueden añadir y comprar artículos."
     },
     "weather_app": {
       "title": "Weather App",
