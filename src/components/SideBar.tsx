@@ -7,38 +7,40 @@ import {
   MdOutlinePhoneInTalk,
 } from 'react-icons/md';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
+
+const contacts = [
+  {
+    id: 1,
+    name: 'phone',
+    url: 'tel:0034632698684',
+    value: '+34632698684',
+    icon: (
+      <MdOutlinePhoneInTalk className="mr-4 h-[1.5rem] w-[1.5rem] text-icon-color" />
+    ),
+  },
+  {
+    id: 2,
+    name: 'email',
+    url: 'mailto:ab.sharifi19@gmail.com',
+    value: 'ab.sharifi19@gmail.com',
+    icon: (
+      <MdOutlineEmail className="mr-4 h-[1.5rem] w-[1.5rem] text-icon-color" />
+    ),
+  },
+  {
+    id: 3,
+    name: 'location',
+    url: '#',
+    value: 'Galicia, Spain',
+    icon: (
+      <MdLocationOn className="mr-4 h-[1.5rem] w-[1.5rem] text-icon-color" />
+    ),
+  },
+];
 
 export const SideBar = () => {
-  const contacts = [
-    {
-      id: 1,
-      name: 'Phone',
-      url: 'tel:0034632698684',
-      value: '+34632698684',
-      icon: (
-        <MdOutlinePhoneInTalk className="mr-4 h-[1.5rem] w-[1.5rem] text-icon-color" />
-      ),
-    },
-    {
-      id: 2,
-      name: 'Email',
-      url: 'mailto:ab.sharifi19@gmail.com',
-      value: 'ab.sharifi19@gmail.com',
-      icon: (
-        <MdOutlineEmail className="mr-4 h-[1.5rem] w-[1.5rem] text-icon-color" />
-      ),
-    },
-    {
-      id: 3,
-      name: 'Location',
-      url: '#',
-      value: 'Galicia, Spain',
-      icon: (
-        <MdLocationOn className="mr-4 h-[1.5rem] w-[1.5rem] text-icon-color" />
-      ),
-    },
-  ];
-
+  const t = useTranslations();
   return (
     <aside className="relative mt-[5rem] flex w-[85%] flex-col items-center rounded-2xl bg-white/50 p-[1.5rem] pb-[2rem] pt-[8rem] shadow-box-shadow dark:bg-dark-skill-bg-color mobile:w-[60%] tablet:sticky tablet:top-[7rem] tablet:max-w-[280px]">
       <Image
@@ -53,7 +55,7 @@ export const SideBar = () => {
       >
         Abdullah Sharifi
       </h1>
-      <p className="font-semibold text-icon-color">Full-Stack Web Developer</p>
+      <p className="font-semibold text-icon-color">{t('about_me.my_title')}</p>
       <SocialMediaList />
       <div className="hidden w-full flex-1 rounded-2xl bg-primary-bg-color p-[1rem] py-6 shadow-box-shadow dark:bg-dark-secondary-bg-color dark:shadow-2xl tablet:block">
         {contacts.map((contact) => {
@@ -66,7 +68,7 @@ export const SideBar = () => {
         className={`${poppins.className} flex items-center justify-center gap-2 rounded-full bg-bt-bg-gradient p-3 pl-4 pr-4 font-semibold text-white/90 duration-300 hover:scale-105 tablet:mt-8`}
       >
         <MdOutlineDownload className="h-5 w-5" />
-        <span>Download CV</span>
+        <span>{t('general.download_cv')}</span>
       </a>
     </aside>
   );

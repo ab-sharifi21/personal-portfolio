@@ -1,0 +1,119 @@
+{
+  "LocaleSwitcher": {
+    "en": "English",
+    "es": "Español"
+  },
+  "general": {
+    "download_cv": "Download CV",
+    "skills_and_technologies": "technologies & skills"
+  },
+  "menu": {
+    "home": "Home",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "contact": {
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location"
+  },
+  "about_me": {
+    "title": "About Me",
+    "my_title": "Full-Stack Web Developer",
+    "description_1": "I’m a",
+    "description_2": "with almost a year of experience at Plexus Tech. I’m motivated, responsible, and skilled in both front-end and back-end development. I’m looking to join a dynamic team where I can apply my knowledge and keep growing both technically and professionally.",
+    "something_interesting": "Something Interesting",
+    "interesting_1": "When I first saw a computer I was 12 years old.",
+    "interesting_2": " And I have been curious about technology and video games ever since. So I jumped into this amazing adventure, exploring and discovering everything about them all on my own."
+  },
+  "experiences": {
+    "title": "Experience",
+    "plexus": {
+      "company": "Plexus Tech",
+      "year": "Jan - Oct 2024",
+      "title": "Front-End Developer",
+      "function_1": "Develop functionalities and user interfaces",
+      "function_2": "Create reusable components",
+      "function_3": "Participate in daily project tracking meetings"
+    },
+    "igfae": {
+      "company": "IGFAE",
+      "title": "Full-Stack Developer",
+      "year": "Feb - Mar 2024",
+      "function_1": "Develop functionalities and user interfaces",
+      "function_2": "Create reusable components",
+      "function_3": "Create a department staff database"
+    },
+    "freelance": {
+      "company": "Freelance",
+      "year": "2023 - Actual",
+      "title": "Full-Stack Developer",
+      "function_1": "Develop personal front & back end projects",
+      "function_2": "Learn new programming languages & technologies",
+      "function_3": "Continuously improving my front & back end skills"
+    },
+    "takapoo": {
+      "company": "Takapoo",
+      "year": "2018 - 2020",
+      "title": "English Instructor",
+      "function_1": "Organize the course work & learning materials",
+      "function_2": "Evaluate the progress of students",
+      "function_3": "Give classes"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "san_clemente": {
+      "school_name": "IES San Clemente",
+      "name": "Web Aplications Development (DAW)",
+      "year": "2024 - Present",
+      "location": "Santiago de Compostela, Galicia, Spain"
+    },
+    "academia_postal": {
+      "school_name": "Academia Postal",
+      "name": "Level 3 Professional Certificate in Web Development (IFCD0210)",
+      "year": "2023 - 2024",
+      "location": "Santiago de Compostela, Galicia, Spain"
+    },
+    "hack_a_boss": {
+      "school_name": "Hack A Boss",
+      "name": "Full-Stack Web Development Bootcamp",
+      "year": "2023",
+      "location": "A Coruña, Galicia, Spain"
+    }
+  },
+  "soft_skills": {
+    "title": "Soft Skills",
+    "team_work": "Team Work",
+    "quick_learning_aptitude": "Quick Learning Aptitude",
+    "time_management": "Time Management",
+    "problem_solving": "Problem Solving",
+    "attention_to_details": "Attention to details",
+    "adaptation": "Adaptation"
+  },
+  "contact_page": {
+    "title": "Contact",
+    "contact_message": "Get in touch and let's work together!",
+    "full_name": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "subject": "Subject",
+    "message": "Your message",
+    "send": "send",
+    "cancel": "Cancel",
+    "sending": "Sending..."
+  },
+  "projects": {
+    "title": "Projects",
+    "projects_text": "Here are some of my works",
+    "p2p": {
+      "title": "P2P - Marketplace",
+      "description": "It is a platform for buying and selling second-hand video games, consoles, accessories, and PCs. Users can search for products by name, price, category, and location. By signing up, users gain full access to add and buy products."
+    },
+    "weather_app": {
+      "title": "Weather App",
+      "description": "This responsive app provides hourly weather forecasts and five-day predictions. Users can access this information by entering their preferred city name or using their current location."
+    }
+  }
+}

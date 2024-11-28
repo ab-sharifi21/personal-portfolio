@@ -1,5 +1,6 @@
 import { ThemeToggle } from './index';
 import { poppins } from '@/fonts';
+import LocaleSwitcher from './LocaleSwitcher';
 
 export const Header = () => {
   return (
@@ -10,7 +11,10 @@ export const Header = () => {
         Abdullah Sharifi
         <span className="text-2xl text-icon-color">.</span>
       </h1>
-      <ThemeToggle />
+      <div className="flex gap-2">
+        <LocaleSwitcher />
+        <ThemeToggle />
+      </div>
     </header>
   );
 };

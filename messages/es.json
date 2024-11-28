@@ -1,0 +1,119 @@
+{
+  "LocaleSwitcher": {
+    "en": "English",
+    "es": "Español"
+  },
+  "general": {
+    "download_cv": "Descargar CV",
+    "skills_and_technologies": "Tecnologías & Habilidades"
+  },
+  "menu": {
+    "home": "Home",
+    "education": "Formación",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "contact": {
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "location": "Ubicación"
+  },
+  "about_me": {
+    "title": "Sobre Mi",
+    "my_title": "Desarrollador Web Full-Stack",
+    "description_1": "Soy un",
+    "description_2": "con casi un año de experiencia en Plexus Tech. Me destaco por mi motivación, responsabilidad y un conjunto de habilidades que abarcan tanto el front-end como el back-end. Busco formar parte de un equipo dinámico donde pueda aportar mis conocimientos, aprender y crecer.",
+    "something_interesting": "Algo Interesante",
+    "interesting_1": "La primera vez que vi una computadora tenía 12 años,",
+    "interesting_2": "y desde ese momento despertó en mí una gran curiosidad por la tecnología y los videojuegos. Desde entonces, me embarqué en esta apasionante aventura, explorando y aprendiendo sobre ellos de manera autodidacta."
+  },
+  "experiences": {
+    "title": "Experiencia",
+    "plexus": {
+      "company": "Plexus Tech",
+      "year": "Ene - Oct 2024",
+      "title": "Desarrollador Front-End",
+      "function_1": "Desarrollar funcionalidades e interfaces de usuario",
+      "function_2": "Crear componentes reutilizables",
+      "function_3": "Participar en reuniones de seguimiento de proyectos diarios"
+    },
+    "igfae": {
+      "company": "IGFAE",
+      "year": "Feb - Mar 2024",
+      "title": "Desarrollador Full-Stack",
+      "function_1": "Desarrollar funcionalidades e interfaces de usuario",
+      "function_2": "Crear componentes reutilizables.",
+      "function_3": "Crear una base de datos de personal para el departamento"
+    },
+    "freelance": {
+      "company": "Freelance",
+      "year": "2023 - Actual",
+      "title": "Desarrollador Full-Stack",
+      "function_1": "Desarrollar proyectos personales de front-end y back-end",
+      "function_2": "Aprender nuevos lenguajes de programación y tecnologías",
+      "function_3": "Mejorando continuamente mis habilidades en front-end y back-end"
+    },
+    "takapoo": {
+      "company": "Takapoo",
+      "year": "2018 - 2020",
+      "title": "Profesor de Inglés",
+      "function_1": "Organizar el material del curso y los recursos de aprendizaje",
+      "function_2": "Evaluar el progreso de los estudiantes",
+      "function_3": "Impartir clases"
+    }
+  },
+  "education": {
+    "title": "Educación",
+    "san_clemente": {
+      "school_name": "IES San Clemente",
+      "name": "Desarrollo de Aplicaciones Web (DAW)",
+      "year": "2024 - Cursando",
+      "location": "Santiago de Compostela, Galicia, España"
+    },
+    "academia_postal": {
+      "school_name": "Academia Postal",
+      "name": "Certificado de Profesionalidad de Nivel 3 en Desarrollo Web (IFCD0210)",
+      "year": "2023 - 2024",
+      "location": "Santiago de Compostela, Galicia, España"
+    },
+    "hack_a_boss": {
+      "school_name": "Hack A Boss",
+      "name": "Bootcamp de Desarrollo de Aplicaciones Web Full-Stack",
+      "year": "2023",
+      "location": "A Coruña, Galicia, España"
+    }
+  },
+  "soft_skills": {
+    "title": "Habilidades Blandas",
+    "team_work": "Trabajo en Equipo",
+    "quick_learning_aptitude": "Aprendizaje Rápido",
+    "time_management": "Gestión del Tiempo",
+    "problem_solving": "Resolución de Problemas",
+    "attention_to_details": "Atención a los Detalles",
+    "adaptation": "Adaptación"
+  },
+  "contact_page": {
+    "title": "Contacto",
+    "contact_message": "¡Ponte en contacto y trabajemos juntos!",
+    "full_name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "subject": "Asunto",
+    "message": "Tu mensaje",
+    "send": "Enviar",
+    "cancel": "Cancelar",
+    "sending": "Enviando..."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "projects_text": "Aquí hay algunos de mis proyectos",
+    "p2p": {
+      "title": "P2P - Marketplace",
+      "description": "Es una plataforma de compra y venta de videojuegos, consolas, accesorios y PCs de segunda mano. Los usuarios pueden buscar productos por nombre, precio, etc, y al registrarse, pueden añadir y comprar artículos."
+    },
+    "weather_app": {
+      "title": "Weather App",
+      "description": "Esta aplicación adaptable ofrece pronósticos del clima por hora y predicciones para los próximos cinco días. Los usuarios pueden acceder a esta información ingresando el nombre de su ciudad preferida o utilizando su ubicación actual."
+    }
+  }
+}

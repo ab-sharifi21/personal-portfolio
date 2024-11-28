@@ -1,4 +1,5 @@
 import { ContactInfo } from '@/types';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
 interface ContactInfoCardProps {
@@ -7,6 +8,7 @@ interface ContactInfoCardProps {
 
 export const ContactInfoCard = ({ contact }: ContactInfoCardProps) => {
   const { name, value, url, icon } = contact;
+  const t = useTranslations('contact');
   return (
     <Link
       href={url}
@@ -15,7 +17,7 @@ export const ContactInfoCard = ({ contact }: ContactInfoCardProps) => {
       {icon}
       <div className="flex flex-col">
         <p className="text-sm font-semibold text-primary-font-color/50 dark:text-dark-primary-font-color/50">
-          {name}:
+          {t(name)}:
         </p>
         <p className="text-sm">{value}</p>
       </div>

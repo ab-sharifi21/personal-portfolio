@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { FaGithub } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
 import { Tooltip } from './Tooltip';
+import { useTranslations } from 'next-intl';
 
 interface ProjectCardProps {
   project: Project;
@@ -12,6 +13,7 @@ interface ProjectCardProps {
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
   const { name, description, github, tools, imageUrl, url, bgColor } = project;
+  const t = useTranslations('projects');
   return (
     <article
       className={`bg-${bgColor} mb-4 rounded-xl shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl`}
@@ -31,7 +33,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           <p
             className={`mb-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100`}
           >
-            {description}
+            {t(description)}
           </p>
           <ul className="flex flex-wrap items-center justify-center gap-2">
             {tools.map((tool) => {
