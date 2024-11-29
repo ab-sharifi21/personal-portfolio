@@ -114,6 +114,10 @@
     "weather_app": {
       "title": "Weather App",
       "description": "Esta aplicación adaptable ofrece pronósticos del clima por hora y predicciones para los próximos cinco días. Los usuarios pueden acceder a esta información ingresando el nombre de su ciudad preferida o utilizando su ubicación actual."
+    },
+    "watchly": {
+      "title": "Watchly",
+      "description": "Watchly te ayuda a encontrar y disfrutar películas y series fácilmente. Explora títulos populares, busca por géneros y mira tráileres en un mini reproductor. Totalmente responsivo, para que lo disfrutes donde quieras y cuando quieras. ¡Hecho para que mirar sea simple y divertido!"
     }
   }
 }

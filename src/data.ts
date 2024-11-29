@@ -12,6 +12,16 @@ export const projects: Project[] = [
     bgColor: 'secondary-bg-color',
   },
   {
+    id: 2,
+    name: 'Watchly',
+    description: 'watchly.description',
+    github: 'https://github.com/ab-sharifi21/watchly',
+    url: 'https://watchly-app.vercel.app/',
+    tools: ['Next.js', 'TailwindCSS', 'TypeScript', 'HTML'],
+    imageUrl: '/watchly.png',
+    bgColor: 'secondary-bg-color',
+  },
+  {
     id: 3,
     name: 'Weather App',
     description: 'weather_app.description',

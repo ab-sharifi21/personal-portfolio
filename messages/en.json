@@ -114,6 +114,10 @@
     "weather_app": {
       "title": "Weather App",
       "description": "This responsive app provides hourly weather forecasts and five-day predictions. Users can access this information by entering their preferred city name or using their current location."
+    },
+    "watchly": {
+      "title": "Watchly",
+      "description": "Watchly helps you easily find and enjoy movies and series. Explore popular titles, browse by genres, and watch trailers in a mini player. Fully responsive, so you can enjoy it anytime, anywhere. Made to make watching simple and fun!"
     }
   }
 }
