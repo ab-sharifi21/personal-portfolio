@@ -1,5 +1,4 @@
 'use client';
-import { useState } from 'react';
 import { Locale } from '@/i18n/config';
 import { setUserLocale } from '@/services/locale';
 import { IoLanguage } from 'react-icons/io5';
