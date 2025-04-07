@@ -4,21 +4,12 @@ import {
   MdLocationOn,
   MdOutlineDownload,
   MdOutlineEmail,
-  MdOutlinePhoneInTalk,
 } from 'react-icons/md';
+import { IoLogoGithub } from 'react-icons/io5';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 const contacts = [
-  {
-    id: 1,
-    name: 'phone',
-    url: 'tel:0034632698684',
-    value: '+34632698684',
-    icon: (
-      <MdOutlinePhoneInTalk className="mr-4 h-[1.5rem] w-[1.5rem] text-icon-color" />
-    ),
-  },
   {
     id: 2,
     name: 'email',
@@ -26,6 +17,15 @@ const contacts = [
     value: 'ab.sharifi19@gmail.com',
     icon: (
       <MdOutlineEmail className="mr-4 h-[1.5rem] w-[1.5rem] text-icon-color" />
+    ),
+  },
+  {
+    id: 1,
+    name: 'recent_project',
+    url: 'https://github.com/ab-sharifi21/watchly',
+    value: 'Watchly',
+    icon: (
+      <IoLogoGithub className="mr-4 h-[1.5rem] w-[1.5rem] text-icon-color" />
     ),
   },
   {
