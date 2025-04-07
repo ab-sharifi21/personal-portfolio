@@ -15,7 +15,7 @@
 1. Clone the project 👉
    `git clone git@github.com:ab-sharifi21/personal-portfolio.git`
 
-2. Create .env file with all the variables from 👉 `.env.example`
+2. Create .env.local file with all the variables from 👉 `.env.example`
 
 3. Install the dependencies 👉 `npm install`
 
