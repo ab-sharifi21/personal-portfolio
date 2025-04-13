@@ -89,6 +89,34 @@ export const educations = [
 
 export const experiences = [
   {
+    id: 5,
+    year: 'altia.year',
+    post: 'altia.title',
+    company: {
+      name: 'Altia Consultores',
+      url: 'https://www.altia.es/es/altia',
+    },
+    bgColor: 'secondary-bg-color',
+    tasks: [
+      {
+        id: 1,
+        description: 'altia.function_1',
+      },
+      {
+        id: 2,
+        description: 'altia.function_2',
+      },
+      {
+        id: 3,
+        description: 'altia.function_3',
+      },
+      {
+        id: 4,
+        description: 'altia.function_4',
+      },
+    ],
+  },
+  {
     id: 1,
     year: 'plexus.year',
     post: 'plexus.title',
@@ -96,7 +124,7 @@ export const experiences = [
       name: 'Plexus Tech',
       url: 'https://www.plexus.es/',
     },
-    bgColor: 'secondary-bg-color',
+    bgColor: 'bg-color3',
     tasks: [
       {
         id: 1,
@@ -144,7 +172,7 @@ export const experiences = [
       name: 'IGFAE',
       url: 'https://igfae.usc.es/igfae/es/la-experiencia-de-abdullah-en-el-igfae-tres-semanas-de-trabajo-para-mejorar-la-organizacion-interna-del-centro/',
     },
-    bgColor: 'bg-color3',
+    bgColor: 'secondary-bg-color',
     tasks: [
       {
         id: 1,

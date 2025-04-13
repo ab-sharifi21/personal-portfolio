@@ -29,6 +29,16 @@
   },
   "experiences": {
     "title": "Experiencia",
+    "altia": {
+      "company": "Altia Consulting",
+      "year": "Ene 2025 - Current",
+      "title": "Desarrollador Front-End",
+      "description": "",
+      "function_1": "Desarrollar y mantener componentes front-end escalables utilizando React, TypeScript y JavaScript",
+      "function_2": "Implementar internacionalización (i18n) para soporte multilingüe y accesibilidad",
+      "function_3": "Escribir y mantener pruebas unitarias utilizando Jest y React Testing Library para garantizar la fiabilidad del código",
+      "function_4": "Desarrollar interfaces responsivas con HTML, CSS y SASS"
+    },
     "plexus": {
       "company": "Plexus Tech",
       "year": "Ene - Oct 2024",
