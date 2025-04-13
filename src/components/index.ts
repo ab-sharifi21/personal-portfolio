@@ -10,3 +10,4 @@ export { ExperienceCard } from './ExperienceCard';
 export { EducationCard } from './EducationCard';
 export { Tooltip } from './Tooltip';
 export { ContactForm } from './ContactForm';
+export { ExperienceList } from './ExperienceList';

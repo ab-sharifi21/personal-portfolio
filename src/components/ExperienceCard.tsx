@@ -6,14 +6,18 @@ import { FaLongArrowAltRight } from 'react-icons/fa';
 
 interface ExperienceCardProps {
   experienceInfo: ExperienceInfo;
+  classNames?: string;
 }
 
-export const ExperienceCard = ({ experienceInfo }: ExperienceCardProps) => {
+export const ExperienceCard = ({
+  experienceInfo,
+  classNames,
+}: ExperienceCardProps) => {
   const { year, post, company, tasks, bgColor } = experienceInfo;
   const t = useTranslations('experiences');
   return (
     <div
-      className={`bg-${bgColor} mb-4 w-full rounded-xl p-3 pl-4 pr-4 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl tablet:w-[48%]`}
+      className={`bg-${bgColor} ${classNames || ''} mb-4 rounded-xl p-3 pl-4 pr-4 shadow-box-shadow dark:bg-cards-bg dark:shadow-2xl`}
     >
       <p className="text-sm text-social-color dark:text-icon-color/90">
         {t(year)}

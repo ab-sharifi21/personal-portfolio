@@ -1,10 +1,8 @@
-import { ExperienceCard } from '@/components';
-import { poppins } from '@/fonts';
-
 import Image from 'next/image';
-import { PiGraduationCapDuotone } from 'react-icons/pi';
-import { experiences } from '@/data';
+import { poppins } from '@/fonts';
 import { useTranslations } from 'next-intl';
+import { PiGraduationCapDuotone } from 'react-icons/pi';
+import { ExperienceList } from '@/components';
 
 export default function Home() {
   const t = useTranslations();
@@ -64,13 +62,7 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className="flex flex-col flex-wrap justify-between tablet:flex-row">
-          {experiences.map((experience) => {
-            return (
-              <ExperienceCard key={experience.id} experienceInfo={experience} />
-            );
-          })}
-        </div>
+        <ExperienceList />
       </div>
     </div>
   );
