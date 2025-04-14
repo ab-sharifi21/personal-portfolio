@@ -33,7 +33,7 @@ export const ExperienceCard = ({
       <ul className="mt-2">
         {tasks.map((task) => {
           return (
-            <li key={task.id} className="flex items-center gap-1 text-sm">
+            <li key={task.id} className="flex items-center gap-1">
               <FaLongArrowAltRight className="text-social-color dark:text-icon-color/70" />
               <span>{t(task.description)}</span>
             </li>
