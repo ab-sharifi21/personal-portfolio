@@ -1,6 +1,5 @@
 import { Socials } from '@/types';
 import Link from 'next/link';
-import { Tooltip } from './Tooltip';
 
 interface SocialMediaCardProps {
   social: Socials;

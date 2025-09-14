@@ -128,9 +128,9 @@ export default function Education() {
               return (
                 <li
                   key={skill.id}
-                  className="flex flex-col items-center gap-1 rounded-md bg-skill-bg-color p-3 shadow-box-shadow dark:bg-dark-secondary-bg-color dark:shadow-lg"
+                  className="group flex flex-col items-center gap-1 rounded-md bg-skill-bg-color p-3 shadow-box-shadow dark:bg-dark-secondary-bg-color dark:shadow-lg hover:cursor-pointer"
                 >
-                  {skill.icon}
+                  <span className='group-hover:text-social-color group-hover:scale-110 duration-200 dark:group-hover:text-icon-color'>{skill.icon}</span>
                   <span className="text-sm">{skill.name}</span>
                 </li>
               );
