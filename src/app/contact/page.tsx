@@ -9,7 +9,7 @@ export default function Contact() {
   const templateId = process.env.TEMPLATE_ID;
   const t = useTranslations();
   return (
-    <div className="flex w-full flex-1 flex-col rounded-2xl bg-white/50 p-4 pl-8 pr-8 shadow-box-shadow dark:bg-dark-skill-bg-color">
+    <div className="flex w-full max-w-none flex-1 flex-col rounded-2xl bg-white/50 p-6 shadow-box-shadow dark:bg-dark-skill-bg-color">
       <div className="flex items-center gap-2">
         <MdOutlinePermContactCalendar className="h-6 w-6 text-icon-color" />
         <h2

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { poppins } from '@/fonts';
 import { useTranslations } from 'next-intl';
-import { PiGraduationCapDuotone } from 'react-icons/pi';
+import { PiSuitcaseSimpleThin } from 'react-icons/pi';
 import { ExperienceList } from '@/components';
 
 export default function Home() {
@@ -37,7 +37,7 @@ export default function Home() {
 
       <div className="mt-12 flex flex-col">
         <div className="mb-6 flex items-center gap-2">
-          <PiGraduationCapDuotone className="h-6 w-6 text-icon-color" />
+          <PiSuitcaseSimpleThin className="h-6 w-6 text-icon-color" />
           <h2
             className={`${poppins.className} text-[1.3rem] font-bold capitalize`}
           >

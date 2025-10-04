@@ -16,7 +16,7 @@ import { ImHappy } from 'react-icons/im';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { PiGraduationCapBold } from 'react-icons/pi';
 import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
-import { SiMysql } from 'react-icons/si';
+import { SiJest, SiMysql, SiTestinglibrary } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 import { softSkills } from '@/data';
 import { educations } from '@/data';
@@ -25,68 +25,78 @@ import { useTranslations } from 'next-intl';
 const skills = [
   {
     id: 1,
-    name: 'HTML',
-    icon: <FaHtml5 className="h-8 w-8" />,
-  },
-  {
-    id: 2,
-    name: 'CSS',
-    icon: <FaCss3 className="h-8 w-8" />,
-  },
-  {
-    id: 3,
-    name: 'JavaScript',
-    icon: <IoLogoJavascript className="h-8 w-8" />,
-  },
-  {
-    id: 10,
-    name: 'Git',
-    icon: <FaGitAlt className="h-8 w-8" />,
-  },
-  {
-    id: 4,
-    name: 'TypeScript',
-    icon: <BiLogoTypescript className="h-8 w-8" />,
-  },
-  {
-    id: 6,
     name: 'React.js',
     icon: <FaReact className="h-8 w-8" />,
   },
   {
-    id: 7,
+    id: 2,
     name: 'Node.js',
     icon: <FaNode className="h-8 w-8" />,
   },
   {
-    id: 8,
+    id: 3,
+    name: 'TypeScript',
+    icon: <BiLogoTypescript className="h-8 w-8" />,
+  },
+  {
+    id: 4,
+    name: 'JavaScript',
+    icon: <IoLogoJavascript className="h-8 w-8" />,
+  },
+  {
+    id: 5,
     name: 'Next.js',
     icon: <RiNextjsFill className="h-8 w-8" />,
   },
   {
+    id: 6,
+    name: 'Jest',
+    icon: <SiJest />
+  },
+  {
+    id: 7,
+    name: 'Testing library',
+    icon: <SiTestinglibrary className="h-8 w-8" />
+  },
+  {
+    id: 8,
+    name: 'TailwindCSS',
+    icon: <RiTailwindCssFill className="h-8 w-8" />,
+  },
+  {
     id: 9,
+    name: 'HTML',
+    icon: <FaHtml5 className="h-8 w-8" />,
+  },
+  {
+    id: 10,
+    name: 'CSS',
+    icon: <FaCss3 className="h-8 w-8" />,
+  },
+  {
+    id: 11,
+    name: 'Git',
+    icon: <FaGitAlt className="h-8 w-8" />,
+  },
+  {
+    id: 12,
     name: 'MySql',
     icon: <SiMysql className="h-8 w-8" />,
   },
   {
-    id: 11,
+    id: 13,
     name: 'GitHub',
     icon: <FaGithub className="h-8 w-8" />,
   },
   {
-    id: 12,
+    id: 14,
     name: 'VScode',
     icon: <VscVscode className="h-8 w-8" />,
   },
   {
-    id: 13,
+    id: 15,
     name: 'GitLab',
     icon: <FaGitlab className="h-8 w-8" />,
-  },
-  {
-    id: 5,
-    name: 'TailwindCSS',
-    icon: <RiTailwindCssFill className="h-8 w-8" />,
   },
 ];
 

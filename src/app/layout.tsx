@@ -29,7 +29,7 @@ export default async function RootLayout({
               <Header />
               <main className="flex flex-1 flex-col items-center gap-8 tablet:flex-row tablet:items-start desktop:gap-12">
                 <SideBar />
-                <div className="flex flex-1 flex-col items-center gap-2 tablet:items-end">
+                <div className="flex w-full flex-1 flex-col items-center gap-2 tablet:items-end">
                   <NavBar />
                   {children}
                 </div>
