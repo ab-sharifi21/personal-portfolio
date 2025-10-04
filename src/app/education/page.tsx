@@ -51,12 +51,12 @@ const skills = [
   {
     id: 6,
     name: 'Jest',
-    icon: <SiJest />
+    icon: <SiJest />,
   },
   {
     id: 7,
     name: 'Testing library',
-    icon: <SiTestinglibrary className="h-8 w-8" />
+    icon: <SiTestinglibrary className="h-8 w-8" />,
   },
   {
     id: 8,
@@ -138,9 +138,11 @@ export default function Education() {
               return (
                 <li
                   key={skill.id}
-                  className="group flex flex-col items-center gap-1 rounded-md bg-skill-bg-color p-3 shadow-box-shadow dark:bg-dark-secondary-bg-color dark:shadow-lg hover:cursor-pointer"
+                  className="group flex flex-col items-center gap-1 rounded-md bg-skill-bg-color p-3 shadow-box-shadow hover:cursor-pointer dark:bg-dark-secondary-bg-color dark:shadow-lg"
                 >
-                  <span className='group-hover:text-social-color group-hover:scale-110 duration-200 dark:group-hover:text-icon-color'>{skill.icon}</span>
+                  <span className="duration-200 group-hover:scale-110 group-hover:text-social-color dark:group-hover:text-icon-color">
+                    {skill.icon}
+                  </span>
                   <span className="text-sm">{skill.name}</span>
                 </li>
               );

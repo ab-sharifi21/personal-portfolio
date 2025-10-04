@@ -16,10 +16,10 @@ export const Nav = ({ link }: NavProps) => {
   return (
     <Link
       href={link.url}
-      className={`${pathname === link.url && 'bg-bt-bg-gradient'} flex gap-2 items-center justify-center rounded-xl bg-skill-bg-color p-2 text-sm transition-all duration-500 hover:bg-bt-bg-gradient dark:bg-dark-skill-bg-color`}
+      className={`${pathname === link.url && 'bg-bt-bg-gradient'} flex items-center justify-center gap-2 rounded-xl bg-skill-bg-color p-2 text-sm transition-all duration-500 hover:bg-bt-bg-gradient dark:bg-dark-skill-bg-color`}
     >
       {link.icon}
-      <p className="font-semibold hidden tablet:block">{t(link.name)}</p>
+      <p className="hidden font-semibold tablet:block">{t(link.name)}</p>
     </Link>
   );
 };

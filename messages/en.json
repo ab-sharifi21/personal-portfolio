@@ -28,9 +28,9 @@
     "title": "Experience",
     "altia": {
       "company": "Altia Consulting",
-      "year": "Ene 2025 - Current",
+      "year": "Jan 2025 - Current",
       "title": "Desarrollador Front-End",
-      "description": "",
+      "description": "I work as a front-end developer, contributing to the development of a new web application for a public service. I've helped implement role-based permissions and built scalable components using React.js and TypeScript.\nI also write unit tests with Jest and React Testing Library to ensure code quality. I create responsive interfaces with CSS and SASS, always focusing on user experience. Additionally, I implemented internationalization (i18n) to support multiple languages and improve accessibility.\nOn top of my development tasks, I supported the team by introducing a Git workflow and branching strategy to improve collaboration and code management.",
       "function_1": "Develop and maintain scalable front-end components using React, TypeScript, and JavaScript",
       "function_2": "Implement internationalization (i18n) for multilingual support and accessibility",
       "function_3": "Write and maintain unit tests using Jest and React Testing Library to ensure code reliability",

@@ -6,10 +6,7 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  safelist: [
-    'bg-secondary-bg-color',
-    'bg-bg-color3',
-  ],
+  safelist: ['bg-secondary-bg-color', 'bg-bg-color3'],
   theme: {
     extend: {
       screens: {
