@@ -12,10 +12,14 @@ export default function LocaleSwitcher() {
         {
           value: 'en',
           label: t('en'),
+          flag: '🇺🇸',
+          shortLabel: 'EN',
         },
         {
           value: 'es',
           label: t('es'),
+          flag: '🇪🇸',
+          shortLabel: 'ES',
         },
       ]}
     />

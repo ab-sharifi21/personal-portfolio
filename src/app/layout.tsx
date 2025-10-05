@@ -7,8 +7,18 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 
 export const metadata: Metadata = {
-  title: 'Abdullah Sharifi - Portfolio',
-  description: 'Abdullah Sharifi - Front-End Developer, Web Developer',
+  title:
+    'Abdullah Sharifi - Full-Stack Developer | Front-End Developer | Back-End Developer | React, Next.js, TypeScript, JavaScript, Node.js, Tailwind CSS, HTML, CSS',
+  description:
+    'Experienced Full-Stack Web Developer specializing in React, Next.js, TypeScript, JavaScript, Tailwind CSS, and modern web technologies. View my portfolio of projects and professional experience.',
+  keywords:
+    'Full-Stack Developer, Next.js, React, TypeScript, JavaScript, Web Development, Frontend, Backend',
+  authors: [{ name: 'Abdullah Sharifi' }],
+  openGraph: {
+    title: 'Abdullah Sharifi - Full-Stack Developer',
+    description:
+      'Professional portfolio showcasing web development projects and experience',
+  },
 };
 
 export default async function RootLayout({

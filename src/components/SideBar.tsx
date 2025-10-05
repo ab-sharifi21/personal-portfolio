@@ -48,6 +48,8 @@ export const SideBar = () => {
         alt="Abdullah photo"
         width={180}
         height={180}
+        priority
+        sizes="(max-width: 768px) 180px, 180px"
         className="absolute top-[-5rem] max-h-[180px] rounded-sm rounded-bl-2xl rounded-tr-2xl object-cover shadow-box-shadow"
       />
       <h1

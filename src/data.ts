@@ -124,7 +124,7 @@ export const experiences = [
       name: 'Plexus Tech',
       url: 'https://www.plexus.es/',
     },
-    bgColor: 'bg-color3',
+    bgColor: 'secondary-bg-color',
     tasks: [
       {
         id: 1,
@@ -172,7 +172,7 @@ export const experiences = [
       name: 'IGFAE',
       url: 'https://igfae.usc.es/igfae/es/la-experiencia-de-abdullah-en-el-igfae-tres-semanas-de-trabajo-para-mejorar-la-organizacion-interna-del-centro/',
     },
-    bgColor: 'secondary-bg-color',
+    bgColor: 'bg-color3',
     tasks: [
       {
         id: 1,

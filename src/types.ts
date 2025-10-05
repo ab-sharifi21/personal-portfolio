@@ -10,7 +10,7 @@ export interface ContactInfo {
   name: string;
   url: string;
   value: string;
-  icon: any;
+  icon: React.ReactNode;
 }
 
 export interface ExperienceInfo {
