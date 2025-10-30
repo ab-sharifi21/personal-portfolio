@@ -27,7 +27,7 @@ export function ThemeToggle() {
   if (resolvedTheme === 'dark') {
     return (
       <div
-        className="group flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full bg-dark-skill-bg-color duration-300"
+        className="group flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full bg-dark-skill-bg-color transition-all duration-300 hover:shadow-lg dark:bg-dark-skill-bg-color dark:hover:bg-icon-color/20"
         onClick={() => setTheme('light')}
       >
         <FiSun className="h-[20px] w-[20px] duration-500 group-hover:rotate-360 group-hover:scale-125" />
@@ -38,7 +38,7 @@ export function ThemeToggle() {
   if (resolvedTheme === 'light') {
     return (
       <div
-        className="group flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full bg-skill-bg-color"
+        className="group flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full bg-skill-bg-color transition-all duration-300 hover:bg-icon-color/10 hover:shadow-lg"
         onClick={() => setTheme('dark')}
       >
         <FiMoon className="h-[20px] w-[20px] duration-500 group-hover:rotate-360 group-hover:scale-125" />

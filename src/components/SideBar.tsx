@@ -57,7 +57,7 @@ export const SideBar = () => {
       >
         Abdullah Sharifi
       </h1>
-      <p className="font-semibold text-icon-color">{t('about_me.my_title')}</p>
+      <p className="font-semibold">{t('about_me.my_title')}</p>
       <SocialMediaList />
       <div className="hidden w-full flex-1 rounded-2xl bg-primary-bg-color p-[1rem] py-6 shadow-box-shadow dark:bg-dark-secondary-bg-color dark:shadow-2xl tablet:block">
         {contacts.map((contact) => {

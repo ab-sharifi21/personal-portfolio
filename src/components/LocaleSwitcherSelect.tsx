@@ -53,7 +53,7 @@ export default function LocaleSwitcherSelect({ defaultValue, items }: Props) {
         aria-label="Change language"
       >
         {/* Globe Icon with Animation */}
-        <HiGlobeAlt className="h-[18px] w-[18px] text-icon-color transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110" />
+        <HiGlobeAlt className="h-[18px] w-[18px] transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110" />
 
         {/* Current Language Display */}
         <div className="flex items-center gap-1">
@@ -69,8 +69,9 @@ export default function LocaleSwitcherSelect({ defaultValue, items }: Props) {
 
         {/* Chevron Icon */}
         <IoChevronDown
-          className={`h-3 w-3 text-icon-color transition-transform duration-300 ${isOpen ? 'rotate-180' : 'rotate-0'
-            }`}
+          className={`h-3 w-3 text-icon-color transition-transform duration-300 ${
+            isOpen ? 'rotate-180' : 'rotate-0'
+          }`}
         />
       </button>
 
@@ -85,10 +86,11 @@ export default function LocaleSwitcherSelect({ defaultValue, items }: Props) {
                 <button
                   key={item.value}
                   onClick={() => handleSelect(item)}
-                  className={`group flex w-full items-center gap-3 px-4 py-3 text-left text-sm transition-all duration-200 ${isSelected
-                    ? 'bg-icon-color/10 text-icon-color dark:bg-icon-color/20'
-                    : 'text-primary-font-color hover:bg-skill-bg-color dark:text-dark-primary-font-color dark:hover:bg-dark-skill-bg-color'
-                    }`}
+                  className={`group flex w-full items-center gap-3 px-4 py-3 text-left text-sm transition-all duration-200 ${
+                    isSelected
+                      ? 'bg-icon-color/10 text-icon-color dark:bg-icon-color/20'
+                      : 'text-primary-font-color hover:bg-skill-bg-color dark:text-dark-primary-font-color dark:hover:bg-dark-skill-bg-color'
+                  }`}
                 >
                   {/* Flag */}
                   {item.flag && (
